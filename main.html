@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/material-design-icons/iconfont/material-icons.css">
+    <link rel="icon" href="speech-bubble.png" type="image/x-icon">
+    <script src="Main.js"></script>
+</head>
+
+<body>
+    <divutil class="d-none">
+        <input type="file" id="fileInput" onchange="QuestionsFetch()" accept=".json">
+    </divutil>
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" onclick="GotoMenu()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="LoadQuestionsJSON()">Otwórz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="Editor()">Edytuj</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="SaveLocalQuestions()">Zapisz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="About()">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="Menu">
+        <div class="container p-2">
+            <h1 class="text-center">Quiz</h1>
+
+            <h2 class="text-center">Mozliwosc sterowania klawiszami 1-5</h2>
+            <h2 class="text-center">oraz zmiana pytania spacj&#261</h2>
+        </div>
+        <div class="container text-center pt-2">
+            <h3 class="text-center">Quizz ze wszystkich pyta&#324</h3>
+            <button onclick="RandomQuiz()" class="btn btn-dark" id="startQuiz">Rozpocznij quiz</button>
+        </div>
+    </div>
+    <div id="Editor" class="d-none">
+        <div class="container p-2 d-flex justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-4 col-md-2">
+                    <h1 class="text-end m-0 me-3">Editor</h1>
+                </div>
+                <div class="col-5">
+                    <input type="text" class="form-control col-5" id="searchQuestion" placeholder="Podaj ID" oninput="Questionfetch()" />
+                </div>
+                <div class="col-4 ms-3 me-3">
+                    <div id="btn-group-editor" class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-info d-flex align-items-center" onclick="AddQuestion()"><span class="material-icons">add</span></button>
+                        <button type="button" class="btn btn-outline-info d-flex align-items-center editbutton" onclick="SaveQuestion()"><span class="material-icons">save</span></button>
+                        <button type="button" class="btn btn-outline-info d-flex align-items-center editbutton" onclick="CancelEdit()"><span class="material-icons">cancel</span></button>
+                        <button type="button" class="btn btn-outline-info d-flex align-items-center editbutton" onclick="RemoveQuestion()"><span class="material-icons">delete</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="justify-content-center d-flex">
+            <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-6" id="jsonDisplay">
+            </div>
+        </div>
+    </div>
+    <div id="Quiz" class="d-none d-flex justify-content-center">
+        <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-6">
+            <div class="card ms-5 me-5 mt-2 mb-2 border-info">
+                <div class="card-header" id="question"></div>
+                <div class="card-body">
+                    <fieldset id="answers">
+                    </fieldset>
+                </div>
+                <div class="card-footer">
+                    <button onclick="NextQuestion()" class="btn btn-dark" id="submit">Nastepne pytanie</button>
+                    <div id="result"></div>
+                    <button onclick="endQuiz()" class="btn btn-light" id="endQuiz">Zakoncz quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="QuizResult" class="d-none d-flex justify-content-center">
+        <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-6">
+            <div class="card border-info m-4">
+                <div id="results" class="card-header">
+                    <h1 class="col">Wyniki</h1>
+                    <div class="d-flex justify-content-between">
+                        <div class="col-6" id="score"></div>
+                        <div class="col-6 d-flex align-items-center justify-content-end">
+                            <button class="btn btn-dark" onclick="showAllAnswers()">Poka&#380 wyniki</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="meme" class="card-body text-center">
+                    <img class="meme-img" id="bilsko" img src="janusz.png">
+                    <img class="meme-img" id="poteznybilsko" img src="poteznybilsko.jpg">
+                    <img class="meme-img" id="kox" img src="koxx.png">
+                    <img class="meme-img" id="bilskopajak" img src="bilskopajak.png">
+                </div>
+                <div class="pt-2 ps-5 pe-5 bg-info" id="quiz-stats">
+                    <h6>Quiz&#243w rozpocz&#281tych: <span id="attempts">0</span></h6>
+                    <h6>Quiz&#243w uko&#324czonych: <span id="completed">0</span></h6>
+                    <h6>Quiz&#243w zdanych: <span id="passed">0</span></h6>
+                </div>
+                <div class="d-flex justify-content-evenly pt-2 pb-1">
+                    <button class="btn btn-dark" onclick="restartQuiz()">Nowy quiz</button>
+                    <button class="btn btn-dark" onclick="GotoMenu()">Menu g&#322&#243wne</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Awnsers" class="d-none d-flex justify-content-center">
+        <div class="col-12 col-md-11 col-lg-10 col-xl-8 col-xxl-6">
+            <div id="AllAnwsers">
+            </div>
+            <div class="d-flex justify-content-evenly col-12 pt-2 pb-1 pb-lg-5">
+                <button class="btn btn-dark" onclick="restartQuiz()">Nowy quiz</button>
+                <button class="btn btn-dark" onclick="GotoMenu()">Menu g&#322&#243wne</button>
+            </div>
+        </div>
+    </div>
+    <div class="toast-container mt-4 position-absolute p-3 top-0 start-50 translate-middle-x" id="toastPlacement">
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true">
+            <div class="toast-header">
+                <strong class="me-auto">Bootstrap</strong>
+                <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
