@@ -1,6 +1,3 @@
-const bootstrap = require("bootstrap");
-const { ipcRenderer } = require('electron');
-
 
 // Zmienne globalne
 let currentQuestion = 0; // Indeks aktualnego pytania
@@ -106,7 +103,7 @@ function SaveLocalQuestions() {
     var Extract = {}
     Extract["record"] = quizData;
     var StrExtract = JSON.stringify(Extract, null, 4);
-    ipcRenderer.send('save-file-request', StrExtract);
+    // ipcRenderer.send('save-file-request', StrExtract);
 }
 
 function LoadQuestionsJSON() {
