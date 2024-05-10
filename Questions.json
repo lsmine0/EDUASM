@@ -354,8 +354,8 @@
         {
             "id": 28,
             "question": "Która z instrukcji umożliwia wpisanie wartości do dwu rejestrów?  ",
-            "explanation": "rcl - przesuwa rejestry<br>lds - ładuja wskaźnik<br>add - dodawanie<br>movbe - odwraca i zapisuje do jednego rejestru&nbsp;<br>",
-            "correctAnswer": 4,
+            "explanation": "rcl - przesuwa rejestry<br>lds - ładuja wskaźnik do DS i rejestru<br>add - dodawanie<br>movbe - odwraca i zapisuje do jednego rejestru&nbsp;<br>",
+            "correctAnswer": 1,
             "answers": [
                 "  rcl  ",
                 "  lds  ",
