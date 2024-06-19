@@ -2,3291 +2,1059 @@
     "record": [
         {
             "id": 1,
-            "question": "Procesory Intel 8080 mogły zaadresować pamięć o rozmiarze: ",
-            "explanation": "Intel 8080 posiadał 16 bitów do bezpośrednigo adresowanie pamięci co dawało pojemność do 64 KiB",
-            "correctAnswer": 4,
+            "question": "System Windows 10 jest systemem o strukturze",
+            "explanation": "todo",
+            "correctAnswer": 0,
             "answers": [
-                "  4 KiB ",
-                " 16 KiB ",
-                " 1 MiB ",
-                " 16 Mib ",
-                " żadne z powyższych "
+                "jednolitej",
+                "warstwowej",
+                "klient-serwer",
+                "żadne z pozostałych",
+                "monolitycznej"
             ]
         },
         {
             "id": 2,
-            "question": "Ile instrukcji może przechować kolejka instrukcji procesora 8088?  ",
-            "explanation": "Intel 8088 posiadał kolejke tylko na 4 instrukcję,<br>w porównaniu Intel 8086 posiadał 6&nbsp;",
-            "correctAnswer": 1,
+            "question": "model zbioru roboczego wynika z: ",
+            "explanation": "Zasady lokalności uznają że program pracuje w danym rejonie strony / pamięci, model zbioru roboczego rozszeża tę definicje uwzględniając używane strony.",
+            "correctAnswer": 0,
             "answers": [
-                "    2    ",
-                "    4    ",
-                "   6   ",
-                "   8   ",
-                "   16   "
+                " zasady lokalności ",
+                "  strategii rozmieszczania ze stronicowaniem ",
+                "  algorytmu bliżniaków ",
+                " testu zgody ",
+                " żadne z pozostałych "
             ]
         },
         {
             "id": 3,
-            "question": "W którym trybie adresowania adres w pamięci może składać się z 3 części: ",
-            "explanation": "Tryb adresowania który może składać się z 3 elementów to&nbsp;bazowo-indeksowy",
-            "correctAnswer": 4,
+            "question": "Dyspozytorem nazywamy",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                "  rejestrowym  ",
-                "  bezpośrednim  ",
-                "  natychmiastowym  ",
-                "  we wszystkich powyższych  ",
-                "  w żadnym  "
-            ]
+                "wątek zarządzający przerwaniami",
+                "żadne z pozostałych",
+                "wątek zarządzający semaforami",
+                "planistę niskiego poziomu",
+                " wszystkie z pozostałych"
+            ],
+            "userAnswer": 1
         },
         {
             "id": 4,
-            "question": "Która z instrukcji jest poprawna? ",
-            "explanation": "fmulp wymaga 0 lub 2 argumentyl.&nbsp;<br>fadd wymaga st(0) w jednym argumencie.<br>faddp wymaga st(0) w drugim argumencie.<br>fsqrt nie wymaga argumentów.&nbsp;&nbsp;",
-            "correctAnswer": 2,
+            "question": "W kolejce semafora znajduje się:",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " fmulp st(4) ",
-                " fadd st(2),st(1) ",
-                " fsubrp st(3),st ",
-                " faddp st,st(2) ",
-                " fsqrt st(1) "
-            ]
+                "żadna z pozostałych",
+                "wątek",
+                "deskryptor procesora",
+                "operacja czekaj",
+                "program"
+            ],
+            "userAnswer": 4
         },
         {
             "id": 5,
-            "question": "Która z instrukcji zmienia flagę C: ",
-            "explanation": "Instruckja fcomi ustawia flagi w procesorze zamiast flag koprocesora.",
-            "correctAnswer": 3,
+            "question": "Fragmentacja zewnętrzna występuje dla",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                " bswap ",
-                " dec ",
-                " fmul ",
-                " fcomi ",
-                " cdqe "
-            ]
+                "żadne z pozostałych",
+                "segmentacji ze stronicowaniem",
+                "segmentacji",
+                "wszystkie z pozostałyhc",
+                "stronicowania"
+            ],
+            "userAnswer": 4
         },
         {
             "id": 6,
-            "question": "Po wykonaniu instrukcji:<br><br>mov eax, 76543210h<br>xor&nbsp; &nbsp;eax, 0f000000fh<br>shr&nbsp; &nbsp;eax, 4<br>bts&nbsp; &nbsp;eax, 1fh<br><br>rejest eax będzie zawierał:&nbsp;<br> ",
-            "explanation": "EAX (0) = 76543210<br>EAX (1) =&nbsp;8654321F<br>EAX (2) = 08654321<br>EAX (3) =&nbsp;88654321<br>",
+            "question": "Nawiasy kwadratowe w powłoce BASH służą do:",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 0,
             "answers": [
-                " 88654321h ",
-                " 43b21901h ",
-                " 65432108h ",
-                " 87654321h ",
-                " 80765432h "
-            ]
+                "żadne z pozostałych",
+                "dziedziczenie z klas poza skryptem",
+                "porusznie sie po historii poleceń",
+                "zastąpienia polecenia test",
+                "dziedziczenia w klasach skryptu"
+            ],
+            "userAnswer": 0
         },
         {
             "id": 7,
-            "question": "Która z instrukcji jest wykorzystywana w trakcie przenoszenia flag C3, C2 i C0 do flag ZF, PF i CF? ",
-            "explanation": "instrukcja fstsw wyciąga informacje z flag koprocesora",
-            "correctAnswer": 2,
+            "question": "wiązanie adresów w trakcie ładowania występuje w systemie ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " cmc ",
-                " fclex ",
-                " fstsw ",
-                " fstf ",
-                " lahf "
+                " DOS ",
+                " CP/M ",
+                " żadne z pozostałych ",
+                " Linux ",
+                " Windows Vista "
             ]
         },
         {
             "id": 8,
-            "question": "Która z instrukcji pozwala na poszukiwanie podanego znaku w tekście?    ",
-            "explanation": "Instrukcja scasb porównuje wartość byta z EDI z AX i ustawia flagi",
+            "question": "Ile jest możliwych wpisów do tabeli MFT ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 3,
             "answers": [
-                "   movsd   ",
-                "   lodsw   ",
-                "   cmpsb   ",
-                "   scasb   ",
-                "   stosw   "
+                " 2 ",
+                " 63 ",
+                " 255 ",
+                " nie ma pozostałych ograniczeń ",
+                " 16 "
             ]
         },
         {
             "id": 9,
-            "question": "Prefix LOCK może odnosić się do instrukcji: ",
-            "explanation": "Prefix Lock może odnosić się tylko do operacji na pamięci.&nbsp;",
+            "question": "Szamotanie występuje gdy:",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 2,
             "answers": [
-                "  nop ",
-                " cmp ",
-                " inc ",
-                " cmc ",
-                " fdiv "
+                "żadne z pozostałych",
+                "nie występuje takie zjawisko",
+                "jest za mało pamięci",
+                "daw procesy jednocześnie odwołują sie do tych samych zasobów niepodzielnych",
+                "jest zbyt wolny procesor"
             ]
         },
         {
             "id": 10,
-            "question": "W procesorze i486SX Intel po raz pierwszy wprowadził ",
-            "explanation": "i486SX jest procesorem i486DX bez koprocesora arytmetycznego.",
-            "correctAnswer": 1,
+            "question": "Metoda ciągłego zabezpieczania danych przed ich utratą z powodu awarii dysku twardego jest",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " rejestry 32-bitowe ",
-                " pięciostopniowy potok instrukcji ",
-                " koprocesor matematyczny ",
-                " instrukcje MMX ",
-                " żadne z powyższych "
+                "Składowanie",
+                "Segmentacja",
+                "Nakładkowanie",
+                "Stronicowanie",
+                "Żadne z pozostałych"
             ]
         },
         {
             "id": 11,
-            "question": "Ile rejestrów ogólnego przeznaczenia dodał Intel w trybie EMT64T do procesorów ",
-            "explanation": "Rejestry R8 - R15 zostały dodane w trybie EMT64T",
-            "correctAnswer": 0,
+            "question": "Charakterystyczne dla struktury klient-serwer systemu operacyjnego jest: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " 8 ",
-                " 16 ",
-                " 32 ",
-                " 64 ",
-                " nie dodał "
+                " przesyłanie pakietów TCP/IP ",
+                " wszystkie z pozostałych ",
+                " przesyłanie plików poprzez spooler ",
+                " przesyłanie rejestrów na stos ",
+                " żadne z pozostałych "
             ]
         },
         {
             "id": 12,
-            "question": "Która instrukcja zapisuje do dwóch rejestrów  ",
-            "explanation": "<a id=\"TLU\">Instrukcja LES (Load Pointer using ES) ładuje wartości z pamięci do dwóch rejestrów</a>",
-            "correctAnswer": 0,
+            "question": "Pamięc asocjacyjna",
+            "explanation": "I forgor&nbsp;💀",
+            "correctAnswer": 1,
             "answers": [
-                "  les  ",
-                "  xlatb  ",
-                "  movsd  ",
-                "  btr  ",
-                "  żadna z powyższych  "
+                "Przechowuje ostatnio używany kod lub dane",
+                "Przechowuje deskryptor ostatnio używanych stron",
+                "Przechowuje strony ostation zapisane na dysku twardym",
+                "Zawiera konfiguracje komputera w czasie jego wyłączenia",
+                "jest to inna nazwa na pamięć podręczną"
             ]
         },
         {
             "id": 13,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku większości ",
-            "explanation": "cmovnbe (nie równe lub mniejsze bez znaku) jest równe cmova ( wieksze bez znaku )<br><br>a = above / b = bellow&nbsp; &nbsp;- bez znaku<br>g = greater / l = less&nbsp; &nbsp; &nbsp; &nbsp;- ze znakiem&nbsp;",
-            "correctAnswer": 3,
+            "question": "Nie występuje tablicz stron ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                "  movg ",
-                " movae ",
-                " cmovnle ",
-                " cmovnbe ",
-                " cmpa "
+                " odwócona ",
+                " grupowanych ",
+                " żadna z pozostałych ",
+                " haszowana ",
+                " dwupoziomowa "
             ]
         },
         {
             "id": 14,
-            "question": "Do policzenia starszych bitów równych 0 służy instrukcja: ",
-            "explanation": "&nbsp;",
-            "correctAnswer": 1,
+            "question": "Fragmentacja zewnetrzna nie występuje dla ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " bsf ",
-                " lzcnt ",
-                " btr ",
-                " bextr ",
-                " rdtsc "
+                " segmentacji ",
+                " żadne z pozostałych ",
+                " wszystkie pozostałych ",
+                " pamięci opartej o rejestr bazowy i graniczny ",
+                " stronicowania "
             ]
         },
         {
             "id": 15,
-            "question": "Która z instrukcji umożliwia mnożenie prze 9 ",
-            "explanation": "lea eax, [eax+eax*8]<br><br>Lea oblicza address w jednym kroku.&nbsp;<br>",
+            "question": "System najszybciej może przejrzeć informacje o pliku w systemie plików",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 0,
             "answers": [
-                " lea ",
-                " add ",
-                " xadd ",
-                " iadd ",
-                " cwde "
+                "FAT32",
+                "FAT16",
+                "NTFS",
+                "żadne z pozostałych",
+                "Ext3"
             ]
         },
         {
             "id": 16,
-            "question": "Do zmiany kolejności słów w rejestrze MMX służy instrukcja: ",
-            "explanation": "P - rejestry mmx<br>shuf - przemiseszaj<br>w - słowo<br>",
-            "correctAnswer": 4,
+            "question": "Małe pliki na partycji NTFS zapisywane są jako",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " psadbw ",
-                " ldmxcsr ",
-                " pmovmskb ",
-                " cmovnge ",
-                " pshufw "
+                "zawartość ostatniego kalstra dużego pliku eliminując fragmentacje wewnętrzną",
+                "plik na partycji ukrtej",
+                "części dużego pliku specjalnego",
+                "atrybut rezydentn tablei MFT",
+                "żadne z pozostałych"
             ]
         },
         {
             "id": 17,
-            "question": "Operacje przesłania bez użycia pamięci podręcznej w AVX realizuję instrukcja:&nbsp; ",
-            "explanation": "non-temporal hint (nt) w instrukcji informuje on nie użycie pamięci cash.&nbsp;",
-            "correctAnswer": 0,
+            "question": "Jaki mechanizm umożliwia bezpośredni dostep do pamięci z pominięciem procesora?",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " vmovntdq ",
-                " vmovdqu ",
-                " vmaskmovdqu ",
-                " vpshufhw ",
-                " vpunpcklqdq "
+                "dyspozytor",
+                "przerwanie",
+                "deskryptor",
+                "kanał",
+                "nie istnieje taki mechanizm"
             ]
         },
         {
             "id": 18,
-            "question": "Operacje AVX odczytu danych z podanych dowolnych elementów tablicy realizuje instrukcja:  ",
-            "explanation": "VGATHERQQ&nbsp; łuży do zbierania wartości z pamięci do rejestru wektorowego, wykorzystując indeksy zarejestrowane w rejestrze vm64x oraz maskę określoną w rejestrze xmm2. Następnie, te warunkowo zebrane elementy są scalane do rejestru xmm1.<br>",
-            "correctAnswer": 2,
+            "question": "Dynamiczny ciąg działań wykonywanych przez jednostkę centralną to",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                "  vpermq  ",
-                "  vblendd  ",
-                "  vgatherqq  ",
-                "  vpshufhq ",
-                "  żadna z powyższych  "
+                "żaden z pozostałych",
+                "Wątek",
+                "Kod wynikowy",
+                "Kod źródłowy",
+                "Program"
             ]
         },
         {
             "id": 19,
-            "question": "Operację zamiany słów na poczwórne słowa realizuje instrukcja: ",
-            "explanation": "V - AVX&nbsp;<br>mov - przenieś wartość<br>s - ze znakiem<br>x - konwertój<br>w - z słowa<br>q - poczwórne słowo<br>",
-            "correctAnswer": 4,
+            "question": "W strategii wymiany ze stronicowanie wystepuje metody:",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " vpackssdw ",
-                " vmaskmovdqu ",
-                " vpunpckldq ",
-                " vpermq ",
-                " vmovsxwq "
+                "żadna z pozostałych",
+                "wszystkie są poprawne",
+                "odsyłania na dysk najdawniej używanej strony",
+                "odsyłanie na dysk najdawniej załadowanej strony",
+                "odsyłanie na dysk najmniej używanej strony"
             ]
         },
         {
             "id": 20,
-            "question": "Podczas dodawania skalarów z rejestrów wektorowych pozastałe elementy celu:  ",
-            "explanation": "-",
+            "question": "Stos to struktura: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 3,
             "answers": [
-                "  pozostają bez zmiany  ",
-                "  pochodzą ze źródła 1  ",
-                "  pochodzą ze źródła 2  ",
-                "  są zerowane  ",
-                "  są niezdefinIowane  "
+                " typu FIFO ",
+                " rotacyjna ",
+                " żadna z pozostałych ",
+                " typu LIFO ",
+                " listowa "
             ]
         },
         {
             "id": 21,
-            "question": "W którym procesorze Intela pojawił się po raz pierwszy tryb chroniony? ",
-            "explanation": "-",
-            "correctAnswer": 1,
+            "question": "Zakończenie transmisji poprzez kanał sygnalizowane jest przez:",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " 8086 ",
-                " 80286 ",
-                " 80486DX ",
-                " Pentium Pro ",
-                " żadnego z powyższych "
+                "operacje sygnalizuj w podprogramie obsługi przerwań",
+                "fragmentację zewnętrzną",
+                "wątek ",
+                "zwolnienie stosu ",
+                "żadne z powyższych"
             ]
         },
         {
             "id": 22,
-            "question": "Parametry aktualne przechowuje się w segmencie:  ",
-            "explanation": "SS - \"Stack Segment\" jest rejestrem segmentu dla stosu, w stosie sa przechowywane aktualne parametry",
-            "correctAnswer": 3,
+            "question": "Każdy wątek ma własny ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                "  CS  ",
-                "  DS  ",
-                "  ES  ",
-                "  SS  ",
-                "  FS  "
+                " obszar pamięci danych ",
+                " obszar pamięci programu ",
+                " stos ",
+                " podprogram obsługi przerwania ",
+                " wszystkie powyższe "
             ]
         },
         {
             "id": 23,
-            "question": "indeksowy tryb adresowania występuje w instrukcji:  ",
-            "explanation": "-",
-            "correctAnswer": 4,
+            "question": "W procesorach Core 2 Duo występuje tablica: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                "  inc esi  ",
-                "  mov edi, offset zmianna  ",
-                "  mov zmienna, rdx  ",
-                "  or edx, [rbx]  ",
-                "  mov [rax*8+tablica], rdx  "
+                " rozproszona ",
+                " odwrócona ",
+                " dwupoziomowa ",
+                " haszowana ",
+                " żadna z powyższych "
             ]
         },
         {
             "id": 24,
-            "question": "Która z instrukcji nie jest poprawna? ",
-            "explanation": "fbld - Załaduj binarnie zakodowaną wartość dziesiętną, fbld jest instrukcją bez argumentową.",
-            "correctAnswer": 3,
+            "question": "W strukturze pierścieniowej podprogram: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " fmul ",
-                " fadd st,st(1) ",
-                " fstp st(1) ",
-                " fbld st(1) ",
-                " fsubr st(1),st "
+                " wyłącznie własnej warstwy ",
+                " wszystkich warstw niższych ",
+                " wszystkich warstw wyższych ",
+                " wszystkie odpowiedzi poprawne ",
+                " żadna z powyższych "
             ]
         },
         {
             "id": 25,
-            "question": "Która z instrukcji nie zmienia flagi P? ",
-            "explanation": "PADDD należy do operacji SIMD co powoduje że jej wykonanie nie wpływa na rejestry procesora",
-            "correctAnswer": 2,
+            "question": "Zawartość środowiska ulotnego może być zapisana przez:  ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " dec ",
-                " cmp ",
-                " paddd ",
-                " xadd ",
-                " fcomi "
+                "  proces w dowolnym momencie  ",
+                "  proces tylko w czasie otwierania semfora  ",
+                "  przez planistę wysokiego poziomu  ",
+                "  przez proces stosując odwołanie do systemu operacyjnego  ",
+                "  żadne z powyższych  "
             ]
         },
         {
             "id": 26,
-            "question": "Po wykonaniu instrukcji:<br><br>mov ecx, 10023004h<br>mov eax, 87654321h<br>sar&nbsp; &nbsp; eax, cl<br>bts&nbsp; &nbsp; eax, 23<br><br>rejest eax będzie zawierał: ",
-            "explanation": "<a id=\"TLU\">ECX (0) = 10023004&nbsp; CL (0) = 04&nbsp;<br>EAX (1) =&nbsp;87654321<br>EAX (2) = F8765432<br>EAX (3) =&nbsp;F8F65432<br><br>Sar - przesuwa bity w prawo z znakiem.<br></a>",
-            "correctAnswer": 2,
+            "question": "Podczas bezpośredniego dostępu do pamięci procesor może odwołać się do: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                "  08765433h  ",
-                "  0f9765432h  ",
-                "  0f8f65432h  ",
-                "   09876543h  ",
-                "  021436587h  "
+                " pamięci operacyjnej ",
+                " pamięci ROM (BIOS) ",
+                " urządzeń wejścia wyjścia ",
+                " pamięci podręcznej poziomu 1 ",
+                " nie może odwołać się do powyższych "
             ]
         },
         {
             "id": 27,
-            "question": "Która z instrukcji neguje flage CF? ",
-            "explanation": "cm - Complement flag (Odwraca flage)<br>st - Set flag<br>cl - Clear flag<br><br>c - Carry Flag<br>d - Direction Flag<br><br>",
-            "correctAnswer": 0,
+            "question": "W jaki sposób w przypadku stosowania segmentacji adres generowany przez proces zmienia się na adres, dzięki któremu możemy odwołać się do konkretnej komórki pamięci?: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " cmc ",
-                " stc ",
-                " cld ",
-                " std ",
-                " clc "
+                " Logiczny -&gt; fizyczny -&gt; liniowy ",
+                " Liniowy -&gt; logiczny ",
+                " Fizyczny -&gt; liniowy -&gt; logiczny ",
+                " Logiczny -&gt; fizyczny ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 28,
-            "question": "Która z instrukcji umożliwia wpisanie wartości do dwu rejestrów?  ",
-            "explanation": "rcl - przesuwa rejestry<br>lds - ładuja wskaźnik do DS i rejestru<br>add - dodawanie<br>movbe - odwraca i zapisuje do jednego rejestru&nbsp;<br>",
-            "correctAnswer": 1,
+            "question": "Kolejka procesora zawiera wątki ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                "  rcl  ",
-                "  lds  ",
-                "  add  ",
-                "  movbe  ",
-                "  żadna z powyższych  "
+                " statyczne ",
+                " wstrzymane ",
+                " wykonywalne ",
+                " niewykonywalne ",
+                " żaden z powyższych "
             ]
         },
         {
             "id": 29,
-            "question": "Która z instrukcji pozawala na wypełnienie tekstu znakiem? ",
-            "explanation": "stosb zapisuje z akumulatora do miejsca wskazanego przez EDI&nbsp;",
-            "correctAnswer": 4,
+            "question": "Aktywne czekanie stosuje się: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " scasb ",
-                " movsd ",
-                " lodsb ",
-                " cmpsb ",
-                " stosb "
+                " w operacji zajmij ",
+                " w operacji uwolnij ",
+                " dla kolejki priorytetowej procesora ",
+                " by oddalić stosy procesów ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 30,
-            "question": "Prefix LOCK nie odnosi się do instrukcji: ",
-            "explanation": "Lea nie odnosi się do pamięci",
-            "correctAnswer": 0,
+            "question": "Duże klastry ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " lea ",
-                " btr ",
-                " xchg ",
-                " cmpxh8b ",
-                " neg "
+                " zmniejszają struktury dyskowe ",
+                " zwiększają szybkość dostępu do plików ",
+                " powodują straty pojemności dysku ",
+                " wszystkich powyższych ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 31,
-            "question": "Instrukcje SSE Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 3,
+            "question": "Fragmentacja wewnętrzna nie występuje dla: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " Ivy Bridge ",
-                " Sandy Bridge ",
-                " Core 2 Duo ",
-                " Pentium III ",
-                " Pentium MMX "
+                " stronicowania ",
+                " segmentacji ",
+                " segmentacji ze stronicowaniem ",
+                " wszystkich powyższych ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 32,
-            "question": "Ile rejestrów YMM używają w trybie x86 procesory Intel?  ",
-            "explanation": "-",
+            "question": "System plików zawartych to inaczej przydział: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 0,
             "answers": [
-                "  8  ",
-                "  16  ",
-                "  32  ",
-                "  64  ",
-                "  nie ma takich rejestrów  "
+                " ciągły ",
+                " liniowy ",
+                " indeksowy ",
+                " listowo-indeksowy ",
+                " drzewiasty "
             ]
         },
         {
             "id": 33,
-            "question": "Która instrukcja dla liczb ze znakiem zamienia słowo na podwójne słowo?&nbsp; ",
-            "explanation": "cwde conwertuje słowo na podwójne słowo kopiująć znak.",
-            "correctAnswer": 2,
+            "question": "Przy prawdopodobieństwie braku strony równym 0.001 oraz szybkości dostępu do pamięci i dysku równym 10 ns i 10 ms średni czas dostępu do pamięci wynosi ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " movzx ",
-                " cbw ",
-                " cwde ",
-                " xlatb ",
-                " bswap "
+                " 1 ms ",
+                " 10 ms ",
+                " 11 ns ",
+                " 20 ns ",
+                " 110 ns "
             ]
         },
         {
             "id": 34,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku większości?&nbsp; ",
-            "explanation": "<a id=\"TLU\" style=\"--bs-link-color-rgb: var(--bs-link-hover-color-rgb);\">cmovnbe (nie równe lub mniejsze bez znaku) jest równe cmova ( wieksze bez znaku )<br><br>a = above / b = bellow&nbsp; &nbsp;- bez znaku<br>g = greater / l = less&nbsp; &nbsp; &nbsp; &nbsp;- ze znakiem</a>",
-            "correctAnswer": 4,
+            "question": "Prawdopodobieństwo zakleszczenia można zmniejszyć stosując: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " cmpbe ",
-                " movb ",
-                " movae ",
-                " cmovnge ",
-                " cmovnbe "
+                " wywłaszczanie semaforów ",
+                " pulę urządzeń ",
+                " stronicowanie ",
+                " wszystkie z powyższych",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 35,
-            "question": "Do zmiany kolejności słów w rejestrze MMX służy instrukcja: ",
-            "explanation": "p - rejestry MMX<br>shuf - (shuffle) przemieszaj<br>w - słowo<br>",
-            "correctAnswer": 3,
+            "question": "Linuks nie może korzystać z systemu plików: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " cmovnge ",
-                " pmovmskb ",
-                " psadbw<br> ",
-                " pshufw ",
-                " ldmxcsr "
+                " FAT32 ",
+                " ex2 ",
+                " ex3 ",
+                " ReiserFS ",
+                " nie ma powyższych ograniczeń "
             ]
         },
         {
             "id": 36,
-            "question": "Komputer IBM 5150 posiadał proceor Intel:&nbsp; ",
-            "explanation": "8088 był tańszy do zaprojektowania płyty głównej dla tego procesoru",
-            "correctAnswer": 2,
+            "question": "Stos jest umieszczony w pamięci ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " 8080 ",
-                " 8086 ",
-                " 8088 ",
-                " 80186 ",
-                " żaden z powyższych "
+                " operacyjnej ",
+                " asocjacyjnej ",
+                " pomocniczej ",
+                " notatnikowej ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 37,
-            "question": "Superskalarność to właściwość procesora polegająca na ",
-            "explanation": "-",
-            "correctAnswer": 1,
+            "question": "Macierz dyskowa z parzystością (...) z przeplotem bloków i podwójną nadmiarowością to macierz typu: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " wykonywaniu instrukcji w potoku ",
-                " wykonywaniu kilku instrukcji jednocześnie ",
-                " przewidywaniu, który rozkaz będzie wykonywany po skoku warunkowym ",
-                " redukcja liczby rozkazów ",
-                " żadna z powyższych "
+                " RAID0 ",
+                " RAID1 ",
+                " RAID5 ",
+                " RAID6 ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 38,
-            "question": "W którym trbyie adresowania adres w pamięci zawiera się w kodzie rozkazu: ",
-            "explanation": "-",
+            "question": "Buforowanie wielokrotne ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 2,
             "answers": [
-                " bezpośrednim ",
-                " rejestrowym ",
-                " natychmiastowym ",
-                " we wszystkich powyższych ",
-                " w żadnym z powyższych "
+                " eliminuje szamotanie ",
+                " jest konieczne do prawidłowego działania zbioru roboczego ",
+                " pozwala by dwa procesy jednocześnie korzystały z tych samych zasobów niepodzielnych ",
+                " przyśpiesza działanie pamięci podręcznej ",
+                " żadne z powyższych "
             ]
         },
         {
             "id": 39,
-            "question": "Która z instrukcji jest poprawna: ",
-            "explanation": "Fsin jest bez argumentowy<br>faddp - pierwszy argument powinien być st(i) a drugi st<br>fscale jest bez argumentowy<br>fsubrp jest dwu lub zero argumentwy<br><br>",
-            "correctAnswer": 3,
+            "question": "Najłatwiej zbudować rozproszony system operacyjny opierając się na strukturze:",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " fsubrp st(4) ",
-                " fscale st(2),st(1) ",
-                " faddp st,st(2) ",
-                " fdivrp st(3),st ",
-                " fsin st(1) "
+                "jednolitej",
+                "warstwowej",
+                "klient-serwer",
+                "monolitycznej",
+                "zaden z pozostałych"
             ]
         },
         {
             "id": 40,
-            "question": "Która z instrukcji nie zmienia flagi C: ",
-            "explanation": "-",
-            "correctAnswer": 4,
+            "question": "Wirtualizacja prezentacji: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " xadd ",
-                " inc ",
-                " imul ",
-                " fcomi ",
-                " wszystkie zmieniają "
+                " rozwiązuje problem zgodności róznych aplikacji ",
+                " kod aplikacji oraz przetwarzanie danych odbywa się po stronie serwera ",
+                " jest połączeniem wirtualizacji aplikacji z wirtualizacją sieci ",
+                " polega na oddzieleniu danych uzytkownika od komputera PC i przechowywaniu ich centralnie ",
+                " zadna z pozostałych "
             ]
         },
         {
             "id": 41,
-            "question": "Po wykonaniu instrukcji:<br><br>mov eax, 0eca87531h<br>xor&nbsp; &nbsp;eax, 0f00ff00fh<br>shr&nbsp; &nbsp;eax, 4<br>bts&nbsp; &nbsp;eax, 1fh<br><br>rejest eax będzie zawierał:  ",
-            "explanation": "<a id=\"TLU\">EAX (0) = eca87531<br>EAX (1) =&nbsp;1ca7853e<br>EAX (2) = 01ca7853<br>EAX (3) =&nbsp;81ca7853</a>",
+            "question": "Ile mozliwych partycji logicznych mozna utworzyć na partycji rozszeronej: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 4,
             "answers": [
-                "  8eca875ch  ",
-                "  0eca78531h  ",
-                "  8eca8753h  ",
-                "  0feca8753h  ",
-                "  81ca7853h  "
+                " 12 ",
+                " 8 ",
+                " 4 ",
+                " 2 ",
+                " nie ma pozostałych ograniczeń "
             ]
         },
         {
             "id": 42,
-            "question": "Która z instrukcji jest wykorzystywana w trakcie przenoszenia flag C3, C2 i C0 do flag ZF, PF i CF? ",
-            "explanation": "popf - nie ma instrukcji na zrzucenie stanu coprocesora na stos",
-            "correctAnswer": 2,
+            "question": "Upakowanie nalezy wykonywać dla: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " cmc<br> ",
-                " lahf ",
-                " sahf ",
-                " popf ",
-                " fstf "
+                " stronicowania ",
+                " segmentacji ",
+                " segmentacji ze stronicowaniem ",
+                " wszystrkie powyzszych ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 43,
-            "question": "Która z instrukcji umożliwia dodawane całkowite? ",
-            "explanation": "lea - pozwala na dodawanie przez obliczanie efektywnego adressu",
-            "correctAnswer": 0,
+            "question": "Podprogram obsługi przerwania ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " lea ",
-                " sub ",
-                " addx ",
-                " faddi ",
-                " żadna z powyższych "
+                " moze pracować na stosie procesu ",
+                " moze uzywać rejestry procesora ",
+                " moze odwoływać się portów we/wy ",
+                " moze korzystać z semaforów ",
+                " wszystkie powyzsze "
             ]
         },
         {
             "id": 44,
-            "question": "Która z instrukcji pozwala na poszukiwanie inneg niż podany znak w tekście? ",
-            "explanation": "Scasb ustawia stan flag porównania AX po załadowaniu danego znaku&nbsp;",
+            "question": "Zadanie: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 3,
             "answers": [
-                " movsd ",
-                " lodsw ",
-                " cmpsd ",
-                " scasb ",
-                " stosw "
+                " nie moze tworzyć semaforów ",
+                " jest równowazne wątkowi ",
+                " posiada kilka liczników rozkazów i stosów ",
+                " moze mieć wiele sekcji danych i kodu ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 45,
-            "question": "Prefix LOCK może odnosić się do instrukcji: ",
-            "explanation": "cmovc jest warunkowym przerzuceniem wartości jeśłi flaga carry jest podniesiona.<br>cmov może odwoływać się do pamięci&nbsp;",
-            "correctAnswer": 3,
+            "question": "Do zasobów niepodzielnych naleza ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " nop ",
-                " cmp ",
-                " bts ",
-                " cmovc ",
-                " fdiv "
+                " stos i zmienne ",
+                " procesory i kod ",
+                " pliki otwarte do odczytu i stos ",
+                " kod i zmienne ",
+                " nie ma takich zasobów "
             ]
         },
         {
             "id": 46,
-            "question": "W procesorze Ivy Bridge Intel po raz pierwszy wprowadził&nbsp; ",
-            "explanation": "-",
+            "question": "Pamięć podręczna ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 3,
             "answers": [
-                " rejestry 64-bitowe ",
-                " pięciostopniowy potok instrukcji ",
-                " koprocesor matematyczny ",
-                " generator liczb losowych ",
-                " żadne z powyższych "
+                " przechowuje strony ostatnio zapisane na dysku ",
+                " zawiera konfigurację komputera w czasie jego wyłączenia ",
+                " przechowuje deskryptory ostatnio uzywanych segmentów ",
+                " przechowuje ostatnio uzywany kod lub dane ",
+                " jest to inna nazwa na pamięć operacyjną "
             ]
         },
         {
             "id": 47,
-            "question": "128 MiB pamięci podręcznej eDRAM posiadał procesor ",
-            "explanation": "-",
-            "correctAnswer": 1,
+            "question": "Proces nie szamoce jeśli ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                " Coffee Lake ",
-                " Broadwell ",
-                " Haswell ",
-                " Sandy Bridge ",
-                " nie było takiej pamięci "
+                " ma wystarczającą liczbę procesorów ",
+                " ma wystarczającą liczbę zasobów we/wy ",
+                " jego biezaca strefa jest w pamieći ",
+                " nie zakleszczony ",
+                " zadna z pozostałych "
             ]
         },
         {
             "id": 48,
-            "question": "Która instrukcja operuje na rejestrze AL: ",
-            "explanation": "xlatb - używa AL jako index tabeli.&nbsp;",
-            "correctAnswer": 0,
+            "question": "Ochrona pamięci operacyjnej jest wbudowana do: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                " xlatb ",
-                " lss ",
-                " movsxd ",
-                " cli ",
-                " żadna z powyższych "
+                " jądra systemu operacyjnego ",
+                " modułu zarządzającego pamięcią ",
+                " do sprzętu adresującego pamięć ",
+                " procesu uzytkownika ",
+                " podprogramu obslugi przerwania niemaskowanego "
             ]
         },
         {
             "id": 49,
-            "question": "Która z instukcji dla liczb bez znaku przesyła dla warunku większe równe? ",
-            "explanation": "<a id=\"TLU\" style=\"--bs-link-color-rgb: var(--bs-link-hover-color-rgb);\">comvnb jest równo znaczne z cmovae<br><br>a = above / b = bellow&nbsp; &nbsp;- bez znaku<br>g = greater / l = less&nbsp; &nbsp; &nbsp; &nbsp;- ze znakiem</a>",
-            "correctAnswer": 4,
+            "question": "Ochrona plików jest realizowana przez: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " movg ",
-                " movae ",
-                " cmovnle ",
-                " cmpge ",
-                " cmovnb "
+                " logowanie do systemu ",
+                " racjonowanie zasobów ",
+                " ochronę w deskryptorze segmentu ",
+                " ustawienie atrybutów plików ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 50,
-            "question": "Do policzenia młodszych bitów równych 0 służy instrukcja: ",
-            "explanation": "lzcnt - zlicza bity równe 0 od góry<br>tzcnt - zlicza bity równe 0 od dołu&nbsp;<br><br>bextr - Wyciąga daną ilośc bitów&nbsp;<br>rdtsc - Real Time-Stamp&nbsp;&nbsp;<br>xgetbv - zwraca wartośc z rejestru controlnego<br>",
-            "correctAnswer": 3,
+            "question": "Współbiezność z wywłaszczaniem polega na: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                " xgetbv ",
-                " lzcnt ",
-                " bextr ",
-                " tzcnt ",
-                " rdtsc "
+                " zabieraniu procesom procesora ",
+                " zabieraniu procesom zasobów we/wy ",
+                " uruchamianiu procesów pod tym samym adresem ",
+                " uwalnianiu procesu spod semafora ",
+                " zadne z  pozostałych "
             ]
         },
         {
             "id": 51,
-            "question": "Rejestry MMX są: ",
-            "explanation": "-",
+            "question": "Organizacja logiczna pamięci wynika z: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 1,
             "answers": [
-                " oddzielnymi rejestrami ",
-                " częścią rejestrów koprocesora ",
-                " częścią rejestrów XMM ",
-                " częścią rejestrów YMM ",
-                " żadne z powyższych "
+                " działania dyspozytora ",
+                " sposobu napisania programu ",
+                " stronicowania ",
+                " początkowego sposobu zamawiania zasobów ",
+                " zadne z powyzszych "
             ]
         },
         {
             "id": 52,
-            "question": "Ile dodawań może maksymalnie zrealizować instrukcja AVX: ",
-            "explanation": "avx 512 może wykonywać obliczenie na bytach.&nbsp;",
+            "question": "Segmentacj: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 0,
             "answers": [
-                " 64 ",
-                " 32 ",
-                " 16 ",
-                " 8 ",
-                " 4 "
+                " zapewnia poziom ochrony kodu i danych ",
+                " pozwala wczytać cały kod programu do pamięci ",
+                " powoduje fragmentację wewnętrzną ",
+                " przyśpiesza dostęp do pamięci ",
+                " zmniejsza zapotrzebowanie na korzystanie z semaforów "
             ]
         },
         {
             "id": 53,
-            "question": "Operacje AVX przesłania najstarszych bitów (bity znaku) każdego bajtu z rejestru ymm1 po kolei do rejestru r32/r64 realizuje instrukcja: ",
-            "explanation": "vblendd - nie istnieje<br>vgatherqq - nie istnieje<br>",
-            "correctAnswer": 3,
+            "question": "Strategia rozmieszczania to: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
             "answers": [
-                " vmaskmovdqu ",
-                " vblendd ",
-                " vgatherqq ",
-                " vpmovmskb ",
-                " żadna z powyższych "
+                " pierwsze dopasowanie ",
+                " najlepsze dopasowanie ",
+                " najgorsze dopasowanie ",
+                " algorytm bliźniaków ",
+                " wszystkie pozostałe "
             ]
         },
         {
             "id": 54,
-            "question": "Która operacja konwertuje liczbę podwójnej precyzji na liczbe pojedynczej precyzji: ",
-            "explanation": "vcvt - konwertuj<br>s - pojedyncza wartość<br>p - spakowany wektor<br><br>s - pojedynczej<br>d - podwujnej&nbsp;<br>",
-            "correctAnswer": 0,
+            "question": "W grupie bloków partycji ext2 znajdują się: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " vcvtsd2ss ",
-                " vcvtss2sd ",
-                " vcvtpd2ps ",
-                " vcvtsi2ss ",
-                " żadna z powyższych "
+                " tablica MFT ",
+                " bitmapa i-węzłów ",
+                " deskryptory dysków ",
+                " tablica alokacji plików ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 55,
-            "question": "Do ilu bajtów wyrównania adresu wymaga instrukcja vmovdqa ymm4, tablica ",
-            "explanation": "Wyrównanie jest zależne od rejestru docelowego<br>",
-            "correctAnswer": 4,
+            "question": "Współbiezność występuje w systemie: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
             "answers": [
-                " 2 ",
-                " 4 ",
-                " 8 ",
-                " 16 ",
-                " 32 "
+                " CP/M ",
+                " Free DOS ",
+                " PC DOS ",
+                " FreeBSD ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 56,
-            "question": "Procesory Intel 8086 mogły zaadresować pamięć o rozmiarze:&nbsp;  ",
-            "explanation": "-",
-            "correctAnswer": 2,
+            "question": "Parzystość rozproszona z przeplotem boków to ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
             "answers": [
-                "  4 KiB  ",
-                "  16 KiB  ",
-                "  1 MiB  ",
-                "  16 MiB  ",
-                "  żadne z powyższych  "
+                " RAID5 ",
+                " RAID4 ",
+                " RAID1 ",
+                " RAID0 ",
+                " RAID1+0 "
             ]
         },
         {
             "id": 57,
-            "question": "Wykonywanie spekulatywne to właściwość procesora polegająca na ",
-            "explanation": "-",
-            "correctAnswer": 3,
+            "question": "Zakleszczeniu mozna zapobiec przez: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                " wykonywaniu instrukcji w potoku ",
-                " wykonywaniu kilku instrukcji jednocześnie ",
-                " redukcji liczby rozkazów ",
-                " wykonywaniu rozkazów po skoku warunkowym bez znajomości warunku ",
-                " żadna z powyższych "
+                " ograniczenie liczby wątków w systemie ",
+                " zwiększenie liczby procesorów w systemie ",
+                " ustalony porządek zamówień zasobów ",
+                " uruchomienie procesu wykrywania zakleszczeń ",
+                " zadne z pozostałych "
             ]
         },
         {
             "id": 58,
-            "question": "Która z instrukcji jest poprawna: ",
-            "explanation": "fist nie przyjmuje argumentów<br>fprem nie przyjmuje argumentów<br>fdivrp przyjmuje ST(i) jak pierwszy a st jako drugi argument<br>fcossin nie istnieje<br><br><br><br>",
-            "correctAnswer": 4,
+            "question": "Strategią  szeregowania zadań dyskowych jest ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
             "answers": [
-                " fist st(2), st(1) ",
-                " fprem st,st(2) ",
-                " fdivrp st,st(3) ",
-                " fcossin st(1) ",
-                " fsubrp st(4), st "
+                " FFCFS ",
+                " LOOK ",
+                " STF ",
+                " S-SKAN ",
+                " zadne z powyzszych "
             ]
         },
         {
             "id": 59,
-            "question": "Która z instrukcji nie zmienia flagi C: ",
-            "explanation": "adox - aktualizuje flage OF ale nie zmienia flag CF",
-            "correctAnswer": 0,
+            "question": "Sprzężenie zwrotne jest cechą systemów: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
             "answers": [
-                " adox ",
-                " test ",
-                " imul ",
-                " fucomip ",
-                " wszystkie zmieniają "
+                " ogólnego przeznaczenia ",
+                " dla indywidualnego użytkownika ",
+                " czasu rzeczywistego ",
+                " przepytywania plików ",
+                " przetwarzanie transakcji "
             ]
         },
         {
             "id": 60,
-            "question": "",
-            "explanation": "EAX(0) =&nbsp;<a id=\"TLU\" style=\"background-color: var(--bs-card-cap-bg); text-align: var(--bs-body-text-align);\"><div style=\"display: inline !important;\">eca87531</div></a><br>EAX(1) =&nbsp;1ca7853e<br>EAX(2) =&nbsp;01ca7853<br>EAX(3) = 41ca7853",
+            "question": "Struktura pierścieniowa systemu jest odmianą struktury: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 1,
             "answers": [
-                "  0eca78531h ",
-                " 041ca7853h ",
-                " 02eca875ch ",
-                " 08eca8753h ",
-                " 0feca8753h "
+                " jednolitej ",
+                " warstwowej ",
+                " czasu rzeczywistego ",
+                " przepytywania plików ",
+                " przetwarzanie transakcji "
             ]
         },
         {
             "id": 61,
-            "question": "Która z instrukcji nie zapisuje wyniku porównania we flagach C3, C2 i C0 ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " fcom ",
-                " fucomp ",
-                " ficom ",
-                " wszystkie powyższe nie zapisują ",
-                " wszystkie powyższe zapisują "
-            ]
-        },
-        {
-            "id": 62,
-            "question": "Która z instrukcji umożliwia całkowitą operacje typu: 2a+b? ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " madd ",
-                " lea ",
-                " addx ",
-                " faddi ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 63,
-            "question": "Która z instrukcji pozwala na wypełnienie tablicy podanym słowem 16-bitowym? ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " cmpsw ",
-                " scasw ",
-                " movsw ",
-                " lodsw ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 64,
-            "question": "Przerwanie programowe wywołuje instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " int ",
-                " call ",
-                " enter ",
-                " iret ",
-                " jrcx "
-            ]
-        },
-        {
-            "id": 65,
-            "question": "W procesorze Alder Lake Intel po raz piwerszy wprowadził ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " rejestry 64-bitowe ",
-                " pięciostopniowy potok instrukcji ",
-                " koprocesor matematyczny ",
-                " dwa rodzaje rdzeni ",
-                " generator liczb losowych "
-            ]
-        },
-        {
-            "id": 66,
-            "question": "Pierwszy procesor wielordzeniowy intela to:&nbsp; ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " I476 ",
-                " Pentium II ",
-                " Pentium 4 ",
-                " Sandy Bridge ",
-                " Haswell "
-            ]
-        },
-        {
-            "id": 67,
-            "question": "Która instrukcja może zmienić rejestr CS: ",
-            "explanation": "Call wywoła pod program lub funkcje w innmy bloku codu (CS)&nbsp;",
-            "correctAnswer": 1,
-            "answers": [
-                " xlatb ",
-                " call ",
-                " les ",
-                " jnz ",
-                " stc "
-            ]
-        },
-        {
-            "id": 68,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku mniejsze?  ",
-            "explanation": "<a id=\"TLU\" style=\"--bs-link-color-rgb: var(--bs-link-hover-color-rgb);\">a = above / b = bellow&nbsp; &nbsp;- bez znaku<br>g = greater / l = less&nbsp; &nbsp; &nbsp; &nbsp;- ze znakiem</a>",
-            "correctAnswer": 3,
-            "answers": [
-                "  cmovnl  ",
-                "  cmovnle  ",
-                "  cmpge  ",
-                "  cmovnae  ",
-                "  cmovnb  "
-            ]
-        },
-        {
-            "id": 69,
-            "question": "Do wydobycia najmłodszego bitu równego 1 służy instrukcja:  ",
-            "explanation": "<a id=\"TLU\">lzcnt - zlicza bity równe 0 od góry<br>tzcnt - zlicza bity równe 0 od dołu&nbsp;</a>",
-            "correctAnswer": 3,
-            "answers": [
-                "  xgetbv  ",
-                "  lzcnt  ",
-                "  bextr  ",
-                "  tzcnt  ",
-                "  blsi  "
-            ]
-        },
-        {
-            "id": 70,
-            "question": "Ile bajtów zawiera się w rejestrzach YMM ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 8 ",
-                " 16 ",
-                " 32 ",
-                " 256 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 71,
-            "question": "Instrukcja dodawania sąsiednich liczb rzeczywistych podwójnej precyzji w ramach rejestrów to: ",
-            "explanation": "V - operacja na AVX<br>H - (Horizontal) miedzy wartościami w rejestrze<br>add - dodaj<br>P - zapakowane liczby<br>D - podwójnej precyzji.<br>",
-            "correctAnswer": 3,
-            "answers": [
-                " vaddpd ",
-                " vnaddpd ",
-                " vaddps ",
-                " vhaddpd ",
-                " vshufpd "
-            ]
-        },
-        {
-            "id": 72,
-            "question": "Operację AVX obliczająca wartośc odwrotności elementów wektora liczb rzeczywistych pojedynczej precyzji realizuje instrukcja: ",
-            "explanation": "RCP -&nbsp;Compute Reciprocals - oblicza odwrotność wartości",
-            "correctAnswer": 0,
-            "answers": [
-                " vrcpps ",
-                " vrsqrtps ",
-                " vroundps ",
-                " vdpps ",
-                " nie ma takiej instrukcji "
-            ]
-        },
-        {
-            "id": 73,
-            "question": "Która operacja konwertuje wektor liczb podwójnej precyzji na wektor liczb pojedynczej precyzji: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " vcvtsd2ss ",
-                " vcvtps2pd ",
-                " vcvtpd2ps ",
-                " vcvtsi2ss ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 74,
-            "question": "Do ilu bajtów wyrównania adresu wymaga instrukcja vmovdqu ymm4, tablica ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " 32 ",
-                " 16 ",
-                " 8 ",
-                " 4 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 75,
-            "question": "W którym procesorze Intela pojawił się po raz pierwszy tryb chroniony? ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 8086 ",
-                " 80286 ",
-                " 80486DX ",
-                " Pentium Pro ",
-                " żadnego z powyższych "
-            ]
-        },
-        {
-            "id": 76,
-            "question": "Parametry aktualne przechowuje sie w segmencie: ",
-            "explanation": "<a id=\"TLU\">SS - \"Stack Segment\" jest rejestrem segmentu dla stosu, w stosie sa przechowywane aktualne parametry</a>",
-            "correctAnswer": 3,
-            "answers": [
-                "  CS ",
-                "  DS ",
-                "  ES ",
-                "  SS ",
-                "  FS "
-            ]
-        },
-        {
-            "id": 77,
-            "question": "Indekswoy tryb adresowania występuje w instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                "  inc esi ",
-                " mov edi, offset zmienna ",
-                " mov zmienna, rdx ",
-                " or edx, [rbx] ",
-                " mov [rax*8+tablica], rdx "
-            ]
-        },
-        {
-            "id": 78,
-            "question": "Która z instrukcji nie jest poprawna? ",
-            "explanation": "fbld nie przyjmuje argumentu",
-            "correctAnswer": 3,
-            "answers": [
-                " fmul ",
-                " fadd st,st(1) ",
-                " fstp st(1) ",
-                " fbld st(1) ",
-                " fsubr st(1),st "
-            ]
-        },
-        {
-            "id": 79,
-            "question": "Która z instrukcji nie zmienia flagi P? ",
-            "explanation": "paddd jest dodawanie na MMX",
-            "correctAnswer": 2,
-            "answers": [
-                " dec ",
-                " cmp ",
-                " paddd ",
-                " xadd ",
-                " fcomi "
-            ]
-        },
-        {
-            "id": 80,
-            "question": "Po wykonaniu instrukcji:<br><br>mov ecx, 10023004h<br>mov eax, 87654321h<br>sar&nbsp; &nbsp;eax, cl<br>bts&nbsp; &nbsp;eax, 23<br><br>rejest eax będzie zawierał: ",
-            "explanation": "<br>ECX (0) = 10023004&nbsp; CL (0) = 04&nbsp;<br>EAX (1) =&nbsp;87654321<br>EAX (2) = F8765432<br>EAX (3) =&nbsp;F8F65432<br>",
-            "correctAnswer": 2,
-            "answers": [
-                "   08765433h  ",
-                "  0f9765432h  ",
-                "  0f8f65432h  ",
-                "  09876543h  ",
-                "  021436587h  "
-            ]
-        },
-        {
-            "id": 81,
-            "question": "Która z instrukcji neguje flage CF? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " cmc ",
-                " stc ",
-                " cld ",
-                " std ",
-                " clc "
-            ]
-        },
-        {
-            "id": 82,
-            "question": "Która z instrukcji umożliwia wpisanie wartości do dwu rejestrów?  ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                "  rcl  ",
-                "  lds  ",
-                "  add  ",
-                "  movbe  ",
-                "  żadna z powyższych  "
-            ]
-        },
-        {
-            "id": 83,
-            "question": "Która z instrukcji pozwala na wypełnienie tekstu znakiem ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " scasb ",
-                " movsd ",
-                " lodsb ",
-                " cmpsb ",
-                " stosb "
-            ]
-        },
-        {
-            "id": 84,
-            "question": "Prefix LOCK nie odnosi sie do instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " lea ",
-                " btr ",
-                " xchg ",
-                " cmpxch8b ",
-                " neg "
-            ]
-        },
-        {
-            "id": 85,
-            "question": "Instrukcje SSE Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " Ivy Bridge ",
-                " Sandy Bridge ",
-                " Core 2 Duo ",
-                " Pentium III ",
-                " Pentium MMX "
-            ]
-        },
-        {
-            "id": 86,
-            "question": "Ile rejestrów YMM używają w trybie x86 procesory Intel? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " 8 ",
-                " 16 ",
-                " 32 ",
-                " 64 ",
-                " nie ma takich rejestrów "
-            ]
-        },
-        {
-            "id": 87,
-            "question": "Która instrukcja dla liczb ze znakiem zamienia słowo na podwójne słowo? ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " movzx ",
-                " cbw ",
-                " cwde ",
-                " xlatb ",
-                " bswap "
-            ]
-        },
-        {
-            "id": 88,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku większości? ",
+            "question": "Wirtualizacja stacji roboczych (utrzymywana na serwerze) jest połączeniem ",
             "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 4,
-            "answers": [
-                " cmpbe ",
-                " movb ",
-                " movae ",
-                " cmovnge ",
-                " cmovnbe "
-            ]
-        },
-        {
-            "id": 89,
-            "question": "Do zmiany kolejności słów w rejestrze MMX służy instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " cmovnge ",
-                " pmovmskb ",
-                " psadbw ",
-                " pshufw ",
-                " ldmxcsr "
-            ]
-        },
-        {
-            "id": 90,
-            "question": "Procesory Intel 8086 mogły zaadresować pamięć o rozmiarze:  ",
-            "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 2,
-            "answers": [
-                "   4 KiB  ",
-                "  16 KiB  ",
-                "  1 MiB  ",
-                "  16 Mib  ",
-                "  żadne z powyższych  "
-            ]
-        },
-        {
-            "id": 91,
-            "question": "Procesory Intel 8088 mogły zaadresować pamięć o rozmiarze:  ",
-            "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 2,
-            "answers": [
-                "   4 KiB  ",
-                "  16 KiB  ",
-                "  1 MiB  ",
-                "  16 Mib  ",
-                "  żadne z powyższych  "
-            ]
-        },
-        {
-            "id": 92,
-            "question": "Procesory Intel 8080 mogły zaadresować pamięć o rozmiarze: ",
-            "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 4,
-            "answers": [
-                "  4 KiB ",
-                " 16 KiB ",
-                " 64 KiB ",
-                " 1 MiB ",
-                " 16 Mib "
-            ]
-        },
-        {
-            "id": 93,
-            "question": "Po wykonaniu instrukcji:<br><br>mov eax, 76543210h<br>xor&nbsp; &nbsp;eax, 0f000000fh<br>shr&nbsp; &nbsp;eax, 4<br>bts&nbsp; &nbsp;eax, 1fh<br><br>rejest eax będzie zawierał:&nbsp;<br>  ",
-            "explanation": "-<br>",
-            "correctAnswer": 4,
-            "answers": [
-                "  87654321h  ",
-                "  65432108h  ",
-                "  43b21901h  ",
-                "  80765432h  ",
-                "  żadne z powyższych  "
-            ]
-        },
-        {
-            "id": 94,
-            "question": "Kiedy F14 CADC został stworzony?    ",
-            "explanation": "-",
             "correctAnswer": 1,
             "answers": [
-                "    lipiec 1987    ",
-                "    czerwcu 1970    ",
-                "     listopad 1971    ",
-                "     kwiecień 1968    ",
-                "   żadne z powyższych   "
-            ]
-        },
-        {
-            "id": 95,
-            "question": "F14 CADC posiadał ilo bitową szyne  ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                "  20 bit  ",
-                "  16 bit  ",
-                "  24 bit  ",
-                "  8 bit  ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 96,
-            "question": "Ile Intel 4004 pośiadał instrukcji&nbsp; ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 45 ",
-                " 46 ",
-                " 52 ",
-                " żadna z powyższych ",
-                " 48 "
-            ]
-        },
-        {
-            "id": 97,
-            "question": "Maksymalne taktowanie dla Intel 4004 to? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " 740 Khz ",
-                " 74 Hz ",
-                " 740 Hz ",
-                " 74 khz ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 98,
-            "question": "Maksymalne taktowanie dla Intel 4004 to? ",
-            "explanation": "Taktowanie intela 4004 był równe 740 Khz",
-            "correctAnswer": 4,
-            "answers": [
-                " 740 Mhz ",
-                " 74 Hz ",
-                " 740 Hz ",
-                " 74 khz ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 99,
-            "question": "Ile Intel 4004 pośiadał instrukcji&nbsp; ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 45 ",
-                " 47 ",
-                " 52 ",
-                " żadna z powyższych ",
-                " 48 "
-            ]
-        },
-        {
-            "id": 100,
-            "question": "F14 CADC posiadał ilo bitową szyne  ",
-            "explanation": "F14 CADC był procesorem 20 bitowym",
-            "correctAnswer": 4,
-            "answers": [
-                "  32 bit  ",
-                "  16 bit  ",
-                "  24 bit  ",
-                "  8 bit  ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 101,
-            "question": "Kiedy F14 CADC został stworzony?    ",
-            "explanation": "F14 CADC był stworzony w czerwcu 1970",
-            "correctAnswer": 4,
-            "answers": [
-                "    lipiec 1987    ",
-                "    maj 1970    ",
-                "     listopad 1971    ",
-                "     kwiecień 1968    ",
-                "   żadne z powyższych   "
-            ]
-        },
-        {
-            "id": 102,
-            "question": "Intel 4004 został zbudowany z ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 2400 tranzystorów ",
-                " 2k tranzystorów ",
-                " 2,3k tranzystorów ",
-                " 2200 tranzystrów ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 103,
-            "question": "Intel 4004 nie posiadał ",
-            "explanation": "Wszystkie występujące były w procesorze Intel 4004",
-            "correctAnswer": 4,
-            "answers": [
-                " 4 bitową magistrale danych ",
-                " 16 rejestrów ",
-                " 740 kHz taktowanie&nbsp;&nbsp; ",
-                " wszystkie z powyższych ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 104,
-            "question": "Intel 4004 posiadał ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                "  4 rejestry 16 bitowe ",
-                " 8 rejestrów 8 bitowych ",
-                " 4 rejestry 4 bitowe ",
-                " 16 rejestrów 4 bitowych ",
-                "  8 rejestrów 8 bitowych "
-            ]
-        },
-        {
-            "id": 105,
-            "question": "Intel 8008 posiadał ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " obudowe DIP18 ",
-                " Procesor zmienno przecinkowy ",
-                " instrukcje SSE ",
-                " 2 rdzenie&nbsp; ",
-                "  żadne z powyższych "
-            ]
-        },
-        {
-            "id": 106,
-            "question": "Intel 8008 posiadał: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " 8 bitową magistralę ",
-                " Pięciostopniowy potok ",
-                "  tryb chroniony ",
-                " żadne z powyższych ",
-                " każde z powyższych "
-            ]
-        },
-        {
-            "id": 107,
-            "question": "intel 8080 został wprowadzony w: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " Kwietniu 1974 ",
-                " czerwiec 1970 ",
-                " maj 1970 ",
-                " czerwiec 1974 ",
-                " Kwietniu 1970 "
-            ]
-        },
-        {
-            "id": 108,
-            "question": "Intel 8080 posiadał  ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                "  72 instrukcje  ",
-                "  46 instrukcji  ",
-                "  80 instrukcji  ",
-                "  68 intrukcji  ",
-                "  żadne z powyższych  "
-            ]
-        },
-        {
-            "id": 109,
-            "question": "który procesor wprowadził BCD ",
-            "explanation": "arytmetyka dwójkowa i dziesiętna kodowana dwójkowo została dodana w intel 8080",
-            "correctAnswer": 3,
-            "answers": [
-                " Intel 8008 ",
-                " Intel 8086 ",
-                " Intel 8088 ",
-                " Intel 8080 ",
-                " żaden z powyższych "
-            ]
-        },
-        {
-            "id": 110,
-            "question": "Jaka była częstotliwośc intela 8080",
-            "explanation": "zegar zewnętrzny o częstotliwości 2-3 MHz ",
-            "correctAnswer": 1,
-            "answers": [
-                "20 Mhz",
-                "2 Mhz",
-                "żadna z powyższych",
-                " 20 Khz",
-                " 2 khz"
-            ]
-        },
-        {
-            "id": 111,
-            "question": "Co jest prawdą o intel 80186",
-            "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 0,
-            "answers": [
-                "Był wykorzystywany w systemach wbudowanych",
-                "Posiadał 32 bity",
-                "wykonywanie spekulatywne",
-                "MMX",
-                "żadne z powyższych"
-            ]
-        },
-        {
-            "id": 112,
-            "question": "ile ramu Intel 80286 mógł adresować?&nbsp;",
-            "explanation": "szyna danych była 24 bitowa co przelicza się na 16 777 216 co dokładnie stanowi 16MiB",
-            "correctAnswer": 3,
-            "answers": [
-                "64Kib",
-                "256Kib",
-                "4Mib",
-                "16MiB",
-                "Żadna z powyższych"
-            ]
-        },
-        {
-            "id": 113,
-            "question": "Który z procesorów wprowadził tryb chroniony",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                "80286",
-                "80386",
-                "Pentium 4",
-                "Core duo",
-                "80486"
-            ]
-        },
-        {
-            "id": 114,
-            "question": "Kiedy ujawniono intel 80286?",
-            "explanation": "Dodaj wytłumaczenie",
-            "correctAnswer": 3,
-            "answers": [
-                " Marca 1985",
-                " Kwietniu 1974",
-                "czerwca 1970",
-                "lutego 1986",
-                " żadna z powyszych"
-            ]
-        },
-        {
-            "id": 115,
-            "question": "Który procesor był 32 bitowy?",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " Core duo",
-                "Hasswell",
-                "Broadwell",
-                "80386",
-                "pentium I"
-            ]
-        },
-        {
-            "id": 116,
-            "question": "Który procesor dodał jednostke MMU ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " 80386 ",
-                " Penitum I ",
-                " Sandy bridge ",
-                " Haswell ",
-                " Core duo "
-            ]
-        },
-        {
-            "id": 117,
-            "question": "Która z instrukcji pozwala na poszukiwanie podanego znaku w tekście? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " scasb ",
-                " movsd ",
-                " lodsw ",
-                " cmpsb ",
-                " stosw "
-            ]
-        },
-        {
-            "id": 118,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku większe równe? ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " movle ",
-                " cmovng ",
-                " cmovnle ",
-                " cmovnb ",
-                " cmpbe "
-            ]
-        },
-        {
-            "id": 119,
-            "question": "Jednostkę zarządzania pamięcią Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "istnieje wersja SX i DX procesora 80386, SX posiadał 16 bitową szyne danych",
-            "correctAnswer": 3,
-            "answers": [
-                " Pentiunm 4 ",
-                " Pentium III ",
-                " 80486 DX ",
-                " 80386 ",
-                " 80286 "
-            ]
-        },
-        {
-            "id": 120,
-            "question": "Który rejestr (EM64T) musi być zabezpieczony przed użyciem: ",
-            "explanation": "Do zabezpieczenia są rejestry:<br>x/y/z mm6 - x/y/z mm15<br>R12-R15<br>RBX, RSI, RDI, RBP",
-            "correctAnswer": 1,
-            "answers": [
-                " RAX ",
-                " R12 ",
-                " YMM5 ",
-                " RDX ",
-                " XMM3 "
-            ]
-        },
-        {
-            "id": 121,
-            "question": "Instrukcja niezmieniająca flag to: ",
-            "explanation": "XCHG tylko zamienia miejscami wartości bez wpływania na flagi",
-            "correctAnswer": 2,
-            "answers": [
-                " dec  ",
-                " mul  ",
-                " xchg  ",
-                " or  ",
-                " add "
-            ]
-        },
-        {
-            "id": 122,
-            "question": "Po wykonaniu której instrukcji zawartośd AL. Zmieni się 0c9h na 92h? ",
-            "explanation": "shl - przesuwa tylko bity bez żadnego&nbsp;",
-            "correctAnswer": 3,
-            "answers": [
-                " or al, 92h ",
-                " neg al. ",
-                " rol al, 1 ",
-                " shl al, 1 ",
-                " mov 92h, al "
-            ]
-        },
-        {
-            "id": 123,
-            "question": "Która z instrukcji nie zmienia flagi Z: ",
-            "explanation": "ficom operuje na flagach co procesorra",
-            "correctAnswer": 0,
-            "answers": [
-                " ficom ",
-                " neg ",
-                " dec ",
-                " cmp ",
-                " xadd "
-            ]
-        },
-        {
-            "id": 124,
-            "question": "Instrukcja dec zmienia flagi: ",
-            "explanation": "Dec - Zero, Overflow, Parity, Sign, (Adjust flag) Axulary Carry Flag&nbsp;&nbsp;",
-            "correctAnswer": 4,
-            "answers": [
-                " OZAPC ",
-                " OSAPC ",
-                " OSZPC ",
-                " OSZAC ",
-                " OSZAP "
-            ]
-        },
-        {
-            "id": 125,
-            "question": "Do zmiany kolejności słów w rejestrze MMX służy instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " psadbw ",
-                " pshufw ",
-                " ldmxcsr ",
-                " pmovmskb ",
-                " cmovnge "
-            ]
-        },
-        {
-            "id": 126,
-            "question": "Ile rejestrów segmentowych dołożono w trybie EMT64T procesorów Intel ",
-            "explanation": "<div>CS – rejestr segmentu kodu programu</div><div>DS – rejestr segmentu danych</div><div>SS – rejestr segmentu stosu</div><div>ES, FS, GS – rejestry pomocnicze dla danych</div>",
-            "correctAnswer": 4,
-            "answers": [
-                " 2 ",
-                " 4 ",
-                " 6 ",
-                " 8 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 127,
-            "question": "Po wykonaniu instrukcji <br><br>mov eax,&nbsp; 0f0f0f0fh <br>mov edx, 12345678h <br>not&nbsp; &nbsp;eax <br>inc&nbsp; &nbsp; edx <br>and&nbsp; &nbsp;edx, eax <br><br>Rejestr edx będzie zawieriał: ",
-            "explanation": "<div>EAX ( mov ) = 0f0f0f0f</div><div>EDX ( mov ) = 12345678</div><div>EAX ( not )&nbsp; &nbsp;= f0f0f0f0</div><div>EDX (&nbsp; inc )&nbsp; &nbsp;= 12345679</div><div>EDX ( and )&nbsp; &nbsp;= 10305070<br></div>",
-            "correctAnswer": 2,
-            "answers": [
-                " 02045070h ",
-                " 12345678h ",
-                " 10305070h ",
-                " 02040608h ",
-                " 02040609h "
-            ]
-        },
-        {
-            "id": 128,
-            "question": "Instrukcjie AVX Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " Pentium II ",
-                " Pentium 4 ",
-                " Pentium D ",
-                " Sandy Bridge ",
-                " Ivy Bridge "
-            ]
-        },
-        {
-            "id": 129,
-            "question": "Po wykonaniu, której instrukcji dla AL=07eh, zawartość AL zmieni się na 2? ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " or al,93h ",
-                " and al,83h ",
-                " rol al,2 ",
-                " rlc al,1 ",
-                " mov al,91h "
-            ]
-        },
-        {
-            "id": 130,
-            "question": "Instrukcja dec zmienia flagi: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " OSZAPC ",
-                " OSAPC ",
-                " OSZPC ",
-                " OSZAC ",
-                " OSZAP "
-            ]
-        },
-        {
-            "id": 131,
-            "question": "Która z instrukcji dla liczb ze znakiem przesyła dla warunku większości ? ",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                " movg ",
-                " movae ",
-                " cmovnle ",
-                " cmova ",
-                " cmpa "
-            ]
-        },
-        {
-            "id": 132,
-            "question": "Procesor Intel 8086 powstał w roku: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 1985 ",
-                " 1972 ",
-                " 1978 ",
-                " 1981 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 133,
-            "question": "Do odwołania się do parametrów aktualnych podprogramu stosuje się rejestr ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " EAX ",
-                " EBX ",
-                " EBP ",
-                " ESI ",
-                " DS "
-            ]
-        },
-        {
-            "id": 134,
-            "question": "Ile rejestrów XMM posiadają w trybie EMT64T procesory Intel",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                "8",
-                "16",
-                "32",
-                "64",
-                "Nie ma takich rejestrów"
-            ]
-        },
-        {
-            "id": 135,
-            "question": "Jakie wartości przyjmą flagi po wykonaniu instrukcji: \n mov al.,222 \n add al.,34 ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " Z=1;C=0;P=0 ",
-                " Z=0;C=1;P=0 ",
-                " Z=1;C=1;P=1 ",
-                " Z=0;C=0;P=1 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 136,
-            "question": "Która z Instrukcji pozwala na wypełnienie bez pętli obszaru pamięci: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " mov ",
-                " stos ",
-                " lds ",
-                " scas ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 137,
-            "question": "Której flagi nie wykorzystuje się w instrukcji skoku warunkowego: ",
-            "explanation": "Axulary Carry Flag&nbsp;",
-            "correctAnswer": 0,
-            "answers": [
-                " AF ",
-                " CF ",
-                " OF ",
-                " PF ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 138,
-            "question": "Natychmiastowy tryb adresowania występuje w instrukcji ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " inc ecx ",
-                " mov edi, offset tabela ",
-                " mov zmienna, edx ",
-                " or Edx, [ebx] ",
-                " mov [Edi*8+tablica], edx "
-            ]
-        },
-        {
-            "id": 139,
-            "question": "Prefix LOCK nie odnosi się do instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " lea ",
-                " btr ",
-                " xchg ",
-                " cmpxch8b ",
-                " neg "
-            ]
-        },
-        {
-            "id": 140,
-            "question": "Ile rejestrów XMM dołożono w trybie EM64T procesorów Intel: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 4 ",
-                " 6 ",
-                " 8 ",
-                " 16 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 141,
-            "question": "Która instrukcja neguje flagę CF? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " cmc ",
-                " stc ",
-                " cld ",
-                " std ",
-                " clc "
-            ]
-        },
-        {
-            "id": 142,
-            "question": "Generator liczb losowych pojawił się w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " Pentium IV ",
-                " Sandy Bridge ",
-                " Ivy Bridge ",
-                " Haswell ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 143,
-            "question": "Do przeszukiwania bitów wstecz służy instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " bsr ",
-                " btc ",
-                " test ",
-                " lea ",
-                " bsf "
-            ]
-        },
-        {
-            "id": 144,
-            "question": "Instrukcja cpuid najczęściej jako wejścia używa rejestrów: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " eax; ebx; ecx; edx ",
-                " eax; ebx ",
-                " eax; edx ",
-                " eax ",
-                " nie ma takiej instrukcji "
-            ]
-        },
-        {
-            "id": 145,
-            "question": "Która z instrukcji nie zmienia flagi? ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " popfd ",
-                " add ",
-                " inc ",
-                " scasb ",
-                " ret "
-            ]
-        },
-        {
-            "id": 146,
-            "question": "Pośredni bazowy tryb adresowania występuje w instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " inc ecx ",
-                " mov edi, offset zmienna ",
-                " or edx, [ebx+tab] ",
-                " mov [edi*8+tablica], edx ",
-                " mov zmienna, edx "
-            ]
-        },
-        {
-            "id": 147,
-            "question": "Która z instrukcji zmienia flagę C: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " fmul ",
-                " fcomi ",
-                " bswap ",
-                " dec ",
-                " cwd "
-            ]
-        },
-        {
-            "id": 148,
-            "question": "Która instrukcja dla liczb bez znaku zmienia bajt na podwójne słowo: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " xlatb ",
-                " movzx ",
-                " cbw ",
-                " cbdw ",
-                " bswap "
-            ]
-        },
-        {
-            "id": 149,
-            "question": "Przekroczenie zakresu liczb całkowitych ze znakiem wskazuje flaga: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " CF ",
-                " AF ",
-                " SF ",
-                " PF ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 150,
-            "question": "Która z instrukcji dla liczb bez znaku przesyła dla warunku mniejszości: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " cmpbe ",
-                " movl ",
-                " cmovnae ",
-                " movnge ",
-                " cmovnl "
-            ]
-        },
-        {
-            "id": 151,
-            "question": "Procesory Core 2 nie posiadają: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " Koprocesora arytmetycznego ",
-                " Jednostki zarządzania pamięcią ",
-                " Instrukcji MMX ",
-                " Instrukcji FMA ",
-                " Posiadają wszystkie "
-            ]
-        },
-        {
-            "id": 152,
-            "question": "Która z instrukcji umożliwia wpisanie wartości do dwóch rejestrów? ",
-            "explanation": "Instrukcja LDS (Load Pointer using DS) ładuje wartości z pamięci do dwóch rejestrów",
-            "correctAnswer": 1,
-            "answers": [
-                " rcl ",
-                " lds ",
-                " add ",
-                " movbe ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 153,
-            "question": "Która instrukcja sprawdza poprawność indeksu tablicy: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " enter ",
-                " leave ",
-                " test ",
-                " bound ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 154,
-            "question": "Ile rejestrów MMX występuje w trybie EM64T procesów Intel? ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 2 ",
-                " 4 ",
-                " 8 ",
-                " 16 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 155,
-            "question": "Która z instrukcji zmienia flagę C:  ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                "  bswap  ",
-                "  inc  ",
-                "  cwd  ",
-                "  fsub  ",
-                "  fcomi  "
-            ]
-        },
-        {
-            "id": 156,
-            "question": "Ile rejestrów YMM posiadają w trybie EM64T procesory Intel ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 8 ",
-                " 16 ",
-                " 32 ",
-                " 64 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 157,
-            "question": "Przeszukiwanie bitów wstecz realizuje funkcja: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " blsmsk ",
-                " btc ",
-                " bextr ",
-                " blsr ",
-                " bsr "
-            ]
-        },
-        {
-            "id": 158,
-            "question": "Dziedziną x w instrukcji fyl2x jest przedział: ",
-            "explanation": "<table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><th colspan=\"10\" style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST(0)</th></tr><tr><td rowspan=\"8\" style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"><strong>ST(1)</strong></td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"></td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">±0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0&lt;+F&lt;+1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+F&gt;+1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">**</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">**</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+F</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">−∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">+∞</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">NaN</td></tr></tbody></table><p style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 13.3333px;\">F Means finite floating-point value.</p><p style=\"margin: 1em 0px 0px; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 13.3333px;\">* Indicatesfloating-pointinvalid-operation(#IA)exception.</p><p style=\"margin: 1em 0px 0px; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 13.3333px;\">** Indicates floating-point zero-divide (#Z) exception.</p><br>",
-            "correctAnswer": 1,
-            "answers": [
-                " (0..1&gt; ",
-                " (0..∞) ",
-                " &lt;-1..1&gt; ",
-                " &lt;-∞..∞&gt; ",
-                " (-(1-√2/2)..(1-√2/2)) "
-            ]
-        },
-        {
-            "id": 159,
-            "question": "Która z instrukcji nie jest poprawna: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " fsub ",
-                " fsub st,st(1) ",
-                " fsubr st(1),st ",
-                " fsubp st,st(1) ",
-                " fsubrp st(1),st "
-            ]
-        },
-        {
-            "id": 160,
-            "question": "Pośredni rejestrowy tryb adresowania występuje w instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " inc [ecx] ",
-                " mov edx, offset zmienna ",
-                " or edx, [ebx * tab] ",
-                " mov [edi*8+tablica], edx ",
-                " mov zmienna, edx "
-            ]
-        },
-        {
-            "id": 161,
-            "question": "W trybie 32 bitowym procesorów Intel rejestr wskaźnika instrukcji koprocesora jest? ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 8 bitowy ",
-                " 16 bitowy ",
-                " 32 bitowy ",
-                " 48 bitowy ",
-                " 64 bitowy "
-            ]
-        },
-        {
-            "id": 162,
-            "question": "Która z instrukcji pozwala na sprawdzenie bitu w rejestrze? ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " and ",
-                " or ",
-                " not ",
-                " xor ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 163,
-            "question": "Po wykonaniu, której instrukcji zawartość AL. Zmieni się z 0a5h na 5ah? ",
-            "explanation": "<table class=\"wikitable floatright\" style=\"font-size: 14px; background-color: rgb(248, 249, 250); color: rgb(32, 33, 34); margin: 0px 0px 0.5em 0.5em; border: 1px solid rgb(162, 169, 177); clear: right; font-family: sans-serif; text-align: center;\"><tbody><tr bgcolor=\"#ddeeff\" style=\"color: rgb(51, 51, 51);\"><td colspan=\"2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em;\"><b>Input</b></td><td style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em;\"><b>Output</b></td></tr><tr bgcolor=\"#ddeeff\" style=\"color: rgb(51, 51, 51);\"><td style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em;\">A</td><td style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em;\">B</td><td style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em;\">A XOR B</td></tr><tr><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td></tr><tr><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td></tr><tr><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td></tr><tr><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td><td class=\"table-yes2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(187, 255, 221); color: black; vertical-align: middle;\">1</td><td class=\"table-no2\" style=\"border-width: 1px; border-color: rgb(162, 169, 177); border-image: initial; padding: 0.2em 0.4em; background: rgb(255, 227, 227); color: black; vertical-align: middle;\">0</td></tr></tbody></table>",
-            "correctAnswer": 0,
-            "answers": [
-                " xor al.,255 ",
-                " neg al ",
-                " ror al,1 ",
-                " shl al,2 ",
-                " mov 5ah,al "
-            ]
-        },
-        {
-            "id": 164,
-            "question": "Która instukjca umożliwia wpisanie wartości do dwóch rejestrów ",
-            "explanation": "<a id=\"TLU\" style=\"--bs-link-color-rgb: var(--bs-link-hover-color-rgb);\">Instrukcja LES (Load Pointer using ES) ładuje wartości z pamięci do dwóch rejestrów</a>",
-            "correctAnswer": 0,
-            "answers": [
-                " les ",
-                " add ",
-                " movbe ",
-                " rcl ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 165,
-            "question": "W procesorze Sandy Bridge pojawiły się instrukcje: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " MMX ",
-                " SSE ",
-                " AVX ",
-                " FMA3 ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 166,
-            "question": "Która z instrukcji tworzy ramę stosu ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " push ",
-                " call ",
-                " enter ",
-                " inc ",
-                " leave "
-            ]
-        },
-        {
-            "id": 167,
-            "question": "Procesor F14 CADC to procesor: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " 8 bitowy ",
-                " 14 bitowy ",
-                " 16 bitowy ",
-                " 20 bitowy ",
-                " 32 bitowy "
-            ]
-        },
-        {
-            "id": 168,
-            "question": "Która z instrukcji zmienia flagę C: ",
-            "explanation": "<h1 style=\"color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;;\">FCOMI/FCOMIP/FUCOMI/FUCOMIP — Compare Floating-Point Values and Set EFLAGS</h1>",
-            "correctAnswer": 0,
-            "answers": [
-                " fucomi ",
-                " not ",
-                " iret ",
-                " dec ",
-                " lea "
-            ]
-        },
-        {
-            "id": 169,
-            "question": "Instrukcja SSE Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " Ivy Bridge ",
-                " Sandy Bridge ",
-                " Core 2 Duo ",
-                " Pentium III ",
-                " Pentium MMX "
-            ]
-        },
-        {
-            "id": 170,
-            "question": "Która z instrukcji nie jest poprawna: ",
-            "explanation": "<table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">D8 /0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADD m32fp</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add m32fp to ST(0) and store result in ST(0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DC /0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADD m64fp</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add m64fp to ST(0) and store result in ST(0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">D8 C0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADD ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add ST(0) to ST(i) and store result in ST(0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DC C0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADD ST(i), ST(0)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add ST(i) to ST(0) and store result in ST(i).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DE C0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADDP ST(i), ST(0)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add ST(0) to ST(i), store result in ST(i), and pop the register stack.</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DE C1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FADDP</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Add ST(0) to ST(1), store result in ST(1), and pop the register stack.</td></tr></tbody></table>",
-            "correctAnswer": 2,
-            "answers": [
-                " fmul ",
-                " fadd st,st(1) ",
-                " faddp st,st(1) ",
-                " fsubr st(1),st ",
-                " fsubrp st(1),st "
-            ]
-        },
-        {
-            "id": 171,
-            "question": "Po wykonaniu instrukcji: <br><br>mov ecx, 10023004h <br>mov eax, 87654321h <br>shr&nbsp; &nbsp;eax, cl <br>bsr&nbsp; &nbsp;edx, eax <br><br>Rejestr edx będzie zawierał? ",
-            "explanation": "<div>ECX = 10023004h</div><div>EAX = 87654321h</div><div><br></div><div>EAX (SHR) = 08765432h</div><div>EDX (BSR) = 27<br><br><br><br><br></div>",
-            "correctAnswer": 3,
-            "answers": [
-                " 0 ",
-                " 1 ",
-                " 15 ",
-                " 27 ",
-                " 32 "
-            ]
-        },
-        {
-            "id": 172,
-            "question": "Do zmiany kolejności slów w rejestrze MMX służy instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " cmovnge ",
-                " pmovmskb ",
-                " psadbw ",
-                " pshufw ",
-                " idmxcsr "
-            ]
-        },
-        {
-            "id": 173,
-            "question": "Która instrukcja dla liczb ze znakiem zmienia słowa na podwójne słowo ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " movzx ",
-                " cbw ",
-                " cwde ",
-                " xlatb ",
-                " bswap "
-            ]
-        },
-        {
-            "id": 174,
-            "question": "Instrukcje AVX Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                " Pentium II ",
-                " Pentium 4 ",
-                " Pentium D ",
-                " Sandy Bridge ",
-                " Ivy Bndge "
-            ]
-        },
-        {
-            "id": 175,
-            "question": "Która z instrukcji neguje flagę CF? ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " cmc ",
-                " stc ",
-                " cld ",
-                " std ",
-                " clc "
-            ]
-        },
-        {
-            "id": 176,
-            "question": "Wykonanie instrukcji:\n<br><br>push [edx] <br>push [ebx]<br>pop [edx]<br>pop [ebx] <br><br>odpowiadałoby instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " xor [edx], [ebx] ",
-                " xchg edx, ebx ",
-                " fxch [edx], [ebx] ",
-                " xchg [edx], [ebx] ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 177,
-            "question": "Instrukcje programu przechowuje się w segmencie wskazywanym przez: ",
-            "explanation": "Segregator CS (Code Segment) wskazuje na segment, w którym przechowywane są instrukcje programu.",
-            "correctAnswer": 0,
-            "answers": [
-                " CS ",
-                " DS ",
-                " ES ",
-                " wszystkie powyższe ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 178,
-            "question": "Instrukcja fcomip zmienia flagi: ",
-            "explanation": "<table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Comparison Results*</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ZF</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">PF</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">CF</th></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST0 &gt; ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST0 &lt; ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST0 = ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Unordered**</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td></tr></tbody></table>",
-            "correctAnswer": 4,
-            "answers": [
-                " APC ",
-                " OAC ",
-                " OSZ ",
-                " OZC ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 179,
-            "question": "Ile instrukcji na słowach może wykonad jedna instrukcja MMX ",
-            "explanation": "słowo ma 16 bity a mmx ma 64 bity i sie to dzieli",
-            "correctAnswer": 0,
-            "answers": [
-                " 4 ",
-                " 8 ",
-                " 16 ",
-                " 32 ",
-                " 64 "
-            ]
-        },
-        {
-            "id": 180,
-            "question": "Która z instrukcji pozwala na przeszukiwanie podanego znaku w tekście? ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " movsd ",
-                " lodsw ",
-                " cmpsb ",
-                " scasb ",
-                " stosw "
-            ]
-        },
-        {
-            "id": 181,
-            "question": "Po wykonaniu instrukcji: \n mov edx, 0f459a01h \n bswap edx \n Rejestr edx będzie zawierał: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " 0f459a01h ",
-                " 9a010f45h ",
-                " 10a954f0h ",
-                " 019a450fh ",
-                " Żadne z powyższych "
-            ]
-        },
-        {
-            "id": 182,
-            "question": "W którym trybie adresowania adres zmiennej jest sumą dwóch rejestrów: ",
-            "explanation": "sprwadzenie",
-            "correctAnswer": 4,
-            "answers": [
-                " rejestrowym ",
-                " bezpośrednim ",
-                " natychmiastowym ",
-                " we wszystkich powyższych ",
-                " w żadnych z powyższych "
-            ]
-        },
-        {
-            "id": 183,
-            "question": "Która z instrukcji nie jest poprawna: ",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                " fmul ",
-                " fadd ST, ST(1) ",
-                " faddp ST, ST(1) ",
-                " fsubr ST(1), ST ",
-                " fsubrp ST(1),ST "
-            ]
-        },
-        {
-            "id": 184,
-            "question": "Prefix LOCK nie może odnosić się do instrukcji:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "inc",
-                "add",
-                "xchg",
-                "cmc",
-                "btr"
-            ]
-        },
-        {
-            "id": 185,
-            "question": "Która z instrukcji nie zmienia flagi PF? ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " dec ",
-                " cmp ",
-                " paddd ",
-                " xadd ",
-                " fcomi "
-            ]
-        },
-        {
-            "id": 186,
-            "question": "Która z instrukcji dla liczb ze znakiem przesyła dla warunku większości? ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " movg ",
-                " movae ",
-                " cmovnle ",
-                " cmova ",
-                " cmpa "
-            ]
-        },
-        {
-            "id": 187,
-            "question": "Która z instrukcji jest wykorzystywana w trakcie przenoszenia flag C3, C2 i CO do flag ZF, PF i CF? ",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                " cmc ",
-                " fclex ",
-                " fldenv ",
-                " fstcw ",
-                " sahf "
-            ]
-        },
-        {
-            "id": 188,
-            "question": "Która z instrukcji nie istnieje: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " fcompp ",
-                " fucomi ",
-                " fucomip ",
-                " ficompp ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 189,
-            "question": "Która instrukcja pozwala na podanie dwóch argumentów z pamięci:",
-            "explanation": "todo",
-            "correctAnswer": 4,
-            "answers": [
-                "mov",
-                "lods",
-                "stos",
-                "scas",
-                "żadna z powyższych"
-            ]
-        },
-        {
-            "id": 190,
-            "question": "Instrukcja fcompp zmienia flagi: ",
-            "explanation": "<table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Condition</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">C3</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">C2</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">C0</th></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST(0) &gt; SRC</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST(0) &lt; SRC</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">ST(0) = SRC</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">0</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Unordered*</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">1</td></tr></tbody></table>",
-            "correctAnswer": 4,
-            "answers": [
-                " APC ",
-                " OAC ",
-                " OSZ ",
-                " OZC ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 191,
-            "question": "Po wykonaniu instrukcji <br><br>mov ecx, 01020304h <br>mov eax, 76543210h<br>shr&nbsp; &nbsp;eax, cl<br>bts&nbsp; &nbsp;eax, 1fh <br><br>rejestr eax będzie zawierał: ",
-            "explanation": "<div><br></div><div>ECX = 01020304h</div><div>EAX = 76543210h</div><div>SHR eax, cl</div><div>EAX = 07654321h</div><div>bts eax, 1fh</div><div>EAX = 87654321h</div>",
-            "correctAnswer": 3,
-            "answers": [
-                " 07654321h ",
-                " 43b21901h ",
-                " 65432108h ",
-                " 87654321h ",
-                " 80765432h "
-            ]
-        },
-        {
-            "id": 192,
-            "question": "Jaki tryb adresowania występuje dla wyróżnionego argumentu instrukcji: \n mov eax, [1234h]",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                "natychmiastowy",
-                "indeksowy",
-                "bezpośredni",
-                "pośredni bazowy",
-                "pośredni bazowo-indeksowy"
-            ]
-        },
-        {
-            "id": 193,
-            "question": "Wykonanie instrukcji: \n push [edx] \n pop [ebx] \n Odpowiada instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " xor [edx], [ebx] ",
-                " xchg [edx], [ebx] ",
-                " xchg edx, ebx ",
-                " fxch [edx], [ebx] ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 194,
-            "question": "Instrukcja włączająca przerwania to: ",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                "sti",
-                "cmc",
-                "cmp",
-                "stp",
-                "cli"
-            ]
-        },
-        {
-            "id": 195,
-            "question": "Do przeszukiwania bitów w przód służy instrukcja: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " bsr ",
-                " inc ",
-                " btc ",
-                " lea ",
-                " bsf "
-            ]
-        },
-        {
-            "id": 196,
-            "question": "Ile rejestrów posiadał procesor 4004: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " 4 rejestry 4 bitowe ",
-                " 8 rejestrów 4 bitowych ",
-                " 4 rejestry 8 bitowe ",
-                " 16 rejestrów 4 bitowych ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 197,
-            "question": "Szukając znaku w tekście użyjemy instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " copysb ",
-                " cmpsb ",
-                " lodsb ",
-                " scasb ",
-                " stosb "
-            ]
-        },
-        {
-            "id": 198,
-            "question": "Po wykonaniu której instrukcji zawartość AL. Zmieni się z 0c9h na 92h? ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " rol al, 1 ",
-                " or al, 92h  ",
-                " neg al  ",
-                " shl al,1  ",
-                " mov 92h, al "
-            ]
-        },
-        {
-            "id": 199,
-            "question": "Która instrukcja dla liczb bez znaku zamienia bajt na podwójne słowo: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " movzx ",
-                " movsx ",
-                " xlatb ",
-                " cbw ",
-                " cbdw "
-            ]
-        },
-        {
-            "id": 200,
-            "question": "Która z instrukcji zmienia flagę C: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " bswap ",
-                " dec ",
-                " ewd ",
-                " fmul ",
-                " fcomi "
-            ]
-        },
-        {
-            "id": 201,
-            "question": "Jaki tryb adresowania występuje dla następującego argumentu instrukcji:\n offset tabela ",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                " prosty ",
-                " indeksowy ",
-                " bezposredni ",
-                " posredni bazowy ",
-                " posredni bazowo-indeksowy "
-            ]
-        },
-        {
-            "id": 202,
-            "question": "W którym trybie adresowania adres zmiennej zawiera się w kodzie instrukcji: ",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                " rejestrowym ",
-                " bezpośrednim ",
-                " natychmiastowym ",
-                " we wszystkich powyższych ",
-                " w żadnym z powyższych "
-            ]
-        },
-        {
-            "id": 203,
-            "question": "Która z instrukcji umożliwia wyzerowanie rejestru? ",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                " sub ",
-                " mov ",
-                " xor ",
-                " wszystkie powyższe ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 204,
-            "question": "Tryb chroniony Intel wprowadził po raz pierwszy w procesorze: ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " Pentium 4 ",
-                " Pentium III ",
-                " 80486 DX ",
-                " 80386 ",
-                " 80286 "
-            ]
-        },
-        {
-            "id": 205,
-            "question": "Po wykonaniu, której instrukcji bity w AL. zmienią się na przeciwne?",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                "xor eax, 255",
-                "neg al",
-                "ror al, 1",
-                "shl al, 8",
-                "mov al, not al"
-            ]
-        },
-        {
-            "id": 206,
-            "question": "Do odwołania się do zmiennych lokalnych podprogramu stosuje się rejestr:",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                "EBP",
-                "EAX",
-                "ESX",
-                "ESI",
-                "DS"
-            ]
-        },
-        {
-            "id": 207,
-            "question": "Która z instrukcji wpisuję 0 do flagi CF?",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "cmc",
-                "eld",
-                "stc",
-                "clc",
-                "vld"
-            ]
-        },
-        {
-            "id": 208,
-            "question": "Po wykonaniu instrukcji: <br><br>mov ecx, 10023004h <br>mov eax, 87654321h <br>sar eax, cl <br>bts eax, 23 <br><br>rejestr eax będzie zawierał: ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " 08765432h ",
-                " 019765432h ",
-                " 0f8f65432h ",
-                " 0987654h ",
-                " 021436587h "
-            ]
-        },
-        {
-            "id": 209,
-            "question": "Która instrukcja nie jest poprawna: ",
-            "explanation": "<br><table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"><strong>Instruction</strong></td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"><strong>64-Bit Mode</strong></td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"><strong>Compat/&nbsp;<sub>1</sub></strong>&nbsp;<strong>Leg Mode</strong></td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\"><strong>Description</strong></td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DA C0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVB ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if below (CF=1).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DA C8+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVE ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if equal (ZF=1).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DA D0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVBE ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if below or equal (CF=1 or ZF=1).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DA D8+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVU ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if unordered (PF=1).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DB C0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVNB ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if not below (CF=0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DB C8+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVNE ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if not equal (ZF=0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DB D0+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVNBE ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if not below or equal (CF=0 and ZF=0).</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DB D8+i</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FCMOVNU ST(0), ST(i)</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Move if not unordered (PF=0).</td></tr></tbody></table>",
-            "correctAnswer": 4,
-            "answers": [
-                " fcmovne ",
-                " fcmovnbe ",
-                " fcmovnu ",
-                " fcmovnb ",
-                " fcmovl "
-            ]
-        },
-        {
-            "id": 210,
-            "question": "Która z instrukcji nie zmienia flagi CF? ",
-            "explanation": "-",
-            "correctAnswer": 4,
-            "answers": [
-                " cmc ",
-                " add ",
-                " stc ",
-                " clc ",
-                " inc "
-            ]
-        },
-        {
-            "id": 211,
-            "question": "W którym procesorze Intela pojawił się po raz pierwszy tryb chroniony? ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 8086 ",
-                " 80286 ",
-                " 80486DX ",
-                " Pentium Pro ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 212,
-            "question": "W którym procesorze intel po raz pierwszy zastosował stronicowanie: ",
-            "explanation": "Mechanizm segmentacji został wprowadzony w 80386. Jednostka stronicowania traktuje całą pamięć RAM tak jakby była podzialona na ramki stałej długości.",
-            "correctAnswer": 2,
-            "answers": [
-                " 8026 ",
-                " 80288 ",
-                " 80386 ",
-                " Pentium Pro ",
-                " żaden z powyższych "
-            ]
-        },
-        {
-            "id": 213,
-            "question": "Po wykonaniu instrukcji: \n mov edx, 0f459101h \n bswap edx \n Rejestr edx będzie zawierał:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "0f459a01h",
-                "9a010f45h",
-                "10a95410h",
-                "0191450fh",
-                "Żadne z powyższych"
-            ]
-        },
-        {
-            "id": 214,
-            "question": "Ile operacji na podwójnych słowach może wykonać jedna instrukcja MMX: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 1 ",
-                " 2 ",
-                " 4 ",
-                " 32 ",
-                " 64 "
-            ]
-        },
-        {
-            "id": 215,
-            "question": "Po wykonaniu instrukcji:\n mov edx, 1000h;&nbsp; &nbsp;bsf eax, edx ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " 00000004h ",
-                " 0000000ch ",
-                " 00000012h ",
-                " 01000000h ",
-                " żadna z powyższych "
-            ]
-        },
-        {
-            "id": 216,
-            "question": "Współczesne procesory Intel i7 zbudowane są z około: ",
-            "explanation": "todo",
-            "correctAnswer": 4,
-            "answers": [
-                " 100 tys. Tranzystorów ",
-                " 1 mln tranzystorów ",
-                " 10 mln tranzystorów ",
-                " 100 min tranzystorów ",
-                " żadne z powyższych "
-            ]
-        },
-        {
-            "id": 217,
-            "question": "Ile rejestrów XMM występuje w trybie EM64T procesorów Intel? ",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                " 8 ",
-                " 16 ",
-                " 64 ",
-                " 256 ",
-                " Żadne z powyższych "
-            ]
-        },
-        {
-            "id": 218,
-            "question": "Ile rejestrów YMM używają w trybie x86 procesory Intel?",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                "8",
-                "16",
-                "32",
-                "64",
-                "nie ma takich rejestrów"
-            ]
-        },
-        {
-            "id": 219,
-            "question": "Bezpośredni tryb adresowania występuje w instrukcji:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "or edx, [ebx]",
-                "mov edi, offset tabela",
-                "mov [edi*8+tablica],edx",
-                "mov zmienna, edx",
-                "inc ecx"
-            ]
-        },
-        {
-            "id": 220,
-            "question": "Do odwołania się do zmiennych lokalnych stosuje się rejestr:",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                "eax",
-                "ebx",
-                "ebp",
-                "esi",
-                "ds"
-            ]
-        },
-        {
-            "id": 221,
-            "question": "Jakie wartości przyjmą flagi po wykonaniu instrukcji <br><br>mov ax, 65530 <br>add ax,9 ",
-            "explanation": "-",
-            "correctAnswer": 2,
-            "answers": [
-                " Z = 1; C = 1; P = 1; ",
-                " Z = 1; C = 0; P = 0; ",
-                " Z = 0; C = 1; P = 1; ",
-                " Z = 0; C = 0; P = 0; ",
-                " Żadne z powyższych "
-            ]
-        },
-        {
-            "id": 222,
-            "question": "Która z instrukcja dla liczb ze znakiem zamienia słowo na podwójne słowo? ",
-            "explanation": "<br>",
-            "correctAnswer": 2,
-            "answers": [
-                " movzx ",
-                " cbw ",
-                " cwde ",
-                " xlatb ",
-                " bswap "
-            ]
-        },
-        {
-            "id": 223,
-            "question": "Po wykonaniu której instukcji&nbsp;<br><br>mov ecx,10023004h<br>mov eax,87654321h&nbsp;<br>sar eax,cl <br>bts eax,24&nbsp;<br><br>rejestr eax bedzie zawierał: ",
-            "explanation": "<div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣶⣤⣄⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣻⣿⣿⣿⣿⣿⣿⣿⠉⠉⠛⠛⠛⠛⠿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⡿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠲⠶⢤⡄⠀⠘⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⡿⠁⣂⡀⠀⠀⠀⠀⠀⠦⠤⣽⠷⣾⢷⢮⣀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⡷⠟⠉⠀⠀⢀⣠⣶⣶⣶⣤⣠⣤⡟⠈⢻⡿⠀⠘⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠠⠼⠿⢻⣿⣻⣿⣿⣿⣿⣿⣷⣾⣣⣇⡀⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⢿⡿⣿⣿⣿⠁⠀⠀⠀⠲⣶⣷⣿⣿⣿⣿⣿⣿⣿⠟⢻⣟⣿⣿⣿⣾⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠃⡼⣁⢀⣿⠁⠀⠀⠀⠀⠀⠉⠙⢿⣿⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣭⣛⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡟⠻⡟⣿⣷⡆⠀⠀⠀⠀⠀⢀⣠⣬⣿⣿⣿⣿⡋⠀⠈⢻⣟⣿⣌⣻⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⢷⣤⢁⣿⡿⣿⣀⣀⢀⡀⣼⠿⠟⢋⣿⣿⣿⣯⢉⣓⣂⠈⣿⠙⣿⠉⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠡⣤⡷⣾⣿⠷⢻⣿⣷⣿⣿⡟⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⡟⣿⣼⣷⠀⣼⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⢀⣿⠛⣷⣴⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠗⢿⣽⡏⣸⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⢸⣿⣟⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡻⢶⣿⣏⣙⡋⢳⣦⣿⣵⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣭⣽⣿⣿⡊⢹⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠉⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⡃⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠈⠹⠻⣿⣿⣿⣿⢟⣿⣿⣿⣿⣿⣿⣿⣿⡿⠇⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⠶⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⢀⣀⣤⡶⠖⠛⠛⠉⠉⣁⣤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⣿⣿⡿⠉⠁⢸⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⢀⣤⣶⠿⠛⠉⠀⠀⠀⠀⠀⠀⣼⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⠀⠀⢰⣾⣿⡷⠀⠀⣾⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠟⠁⠀⠀⠃⢀⠈⠉⢁⣨⣭⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⡇⠀⣀⣿⣿⡏⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⡀⠀⠠⠆⠒⣿⣶⣾⣿⣿⣿⡿⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀⣿⣿⡏⠀⢸⠁⠀⡙⠷⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⣿⣶⣦⣶⣿⣿⣿⣿⣿⣿⣿⣧⣥⣄⡀⠀⠀⠀⣄⣀⠀⠀⡀⠀⠀⠀⣿⣿⣿⢿⣿⢀⣴⡻⠀⠀⣧⠀⠀⠈⠛⠶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⣿⣿⣷⣄⠀⠀⠀⠈⠉⠉⠉⠉⠛⠛⠛⠛⠿⠿⠿⣿⣷⣶⣿⣄⠀⢰⣿⢻⣿⣸⣿⣾⠁⠁⠇⠀⢿⣷⡤⣄⣀⠀⠈⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠈⠻⠿⣿⣧⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⣀⠀⠈⠉⠙⠿⠷⣿⣏⠀⣿⣿⣿⡇⠀⠈⡀⠀⠈⠻⣷⡈⠻⢿⣤⠀⠈⠻⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠉⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡋⠀⠉⠠⠀⠈⠻⣄⢹⣿⡟⢀⣀⡴⢿⣶⠒⠺⠟⠛⠂⠀⢻⡆⢰⣶⣬⣍⣉⠓⠶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣷⠀⠀⠂⠶⢤⣄⡙⠀⠻⠁⣾⣿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣾⣿⣿⡟⠋⠙⠓⠂⠙⠓⠒⠶⢤⣤⡀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠿⠶⠀⠈⠀⠒⠀⢺⣿⣷⣿⣙⡻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢿⣷⣀⢤⡴⢄⠀⠀⠀⠀⠀⠀⠉⠳⠦⣄⠀⠀⠀</div><div>⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⠀⠀⠘⣿⣿⡿⣿⡟⠃⠀⠀⠀⠀⠀⠀⠀⠐⠄⠠⠀⡈⡻⣯⣷⣘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣦⡀</div><div>⠴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠳⣄⠀⢸⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠐⠒⠂⠊⠈⠈⠁⠀⠀⠙⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻</div><div>⠀⠀⠐⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠄⠀⠀⠙⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⣹⣿⠷⣦⣁⠂⠀⠀⠀⠀⠀⠀</div><div>⠤⠄⠀⠀⠀⣀⡀⢀⡀⠤⠀⠉⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣦⠈⠛⢷⣄⠀⠀⠀⠀⠀</div><div>⠛⠀⠀⠀⠀⠀⠠⠄⢀⡀⢀⣤⢠⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⠿⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣦⠀⠈⠙⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⣐⣂⣀⣀⠀⣶⣶⣾⢉⣴⢾⣿⣷⣤⣤⣤⣤⣠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡄⢀⣀⠀⠄⠈⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣦⡀⣀⣀⣀⣀⠀⢀</div>",
-            "correctAnswer": 2,
-            "answers": [
-                " 08765433h ",
-                " 0f9765432h ",
-                " 0f8f5432h ",
-                " 098765432h ",
-                " 021436687h "
-            ]
-        },
-        {
-            "id": 224,
-            "question": "Która z instrukcji nie jest poprawna: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
-                " cmovne ",
-                " cmovgea ",
-                " cmovnb ",
-                " cmovbe ",
-                " cmovb "
-            ]
-        },
-        {
-            "id": 225,
-            "question": "Która z instrukcji dla liczb ze znakiem przesyła dla warunku mniejszośc? ",
-            "explanation": "<div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠊⠁⠀⠀⠀⠀⠀⠉⠒⠤⡀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠋⠀⠀⠀⢀⣀⣀⣠⣤⣴⣆⣀⠀⠙⡆⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢋⣀⣤⣶⣯⣯⡶⠯⠭⠔⠚⠛⠂⠀⠀⢷⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠉⠋⠉⠉⠀⠀⠀⠐⠒⠒⠋⠓⠂⠀⢸⠀⠀⠀⠀</div><div>⠀⠀⠀⣠⠔⠊⠉⠀⠀⠈⠉⠐⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡄⠠⠒⠈⢡⣒⠀⢀⣰⣧⣶⡦⠀⠀⠀⠸⠀⠀⠀⠀</div><div>⠀⣠⠎⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠀⠸⠿⠿⠿⡆⢸⠈⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣄⣀⡀⠀⠀⠀⠀⠸⡄⠀⠀⠀⢀⡇⠀⢧⡀⠀⠀⠀⠀⠀⢠⠀⠀⠀⠀</div><div>⠀⠛⣉⣩⣽⠽⠛⣒⡒⠒⠦⠤⢤⣤⣤⣤⢀⡀⠱⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡏⠀⠈⠉⠓⠦⠤⠤⡇⡀⠀⠀⠘⠤⠤⠴⠃⠀⠀⠀⠀⣠⣿⣆⠀⠀⠀</div><div>⠀⡿⢛⣁⣈⠉⠉⠒⠍⠉⠩⠭⠽⠂⠢⠭⢷⠍⠀⢹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠥⠤⣀⠀⠀⠀⠀⠀⠘⢷⠀⢀⣴⣸⣿⣠⡷⣄⣄⢠⣾⣿⣿⠋⠑⠲⠤</div><div>⠀⠈⣁⠀⠈⠑⠄⠀⠀⠀⠀⠀⠀⠠⠖⠒⠲⡄⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢤⡀⠀⠀⠀⠀⣿⣸⣧⣿⣿⣿⣿⡎⢹⣿⣿⡿⠛⠀⠀⠀⠀</div><div>⠟⢩⢿⣛⡛⠳⣖⠲⣖⠒⠒⡶⠖⣲⠿⠿⣖⠦⢤⡤⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠀⠀⠀⠻⣯⠙⠿⠿⠋⠀⢰⣾⠿⠁⠀⠀⠀⠀⠀</div><div>⠀⠀⡻⠿⠿⢧⡿⢀⣿⠖⢲⣧⣼⣿⣿⡯⠎⠀⠀⣇⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢄⠀⠀⠀⠙⠟⣶⣤⣶⣦⡿⠏⠀⠀⠀⠀⠀⠀⠀</div><div>⣦⣄⣉⣐⣂⣉⣤⠿⡿⠀⠀⢻⣻⣝⣒⣂⣈⣠⣴⠃⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⡄⠀⠀⠀⠀⠉⠁⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠸⣀⣀⢀⡠⠇⠀⠀⠀⠀⠀⠀⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⢠⢆⣈⢁⡀⠀⠀⠀⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⢠⡞⢁⣼⠯⠴⣷⣤⡀⠀⠀⠀⢠⣾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⣀⠀⠀⠀⢀⡾⣠⣿⣿⣿⣷⡎⣟⣷⠀⣀⣴⣶⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⣼⣧⠀⠀⢸⡇⢿⢻⣿⣿⣿⡇⠉⢙⣄⣟⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⣿⡜⣞⡆⡾⢿⣬⠆⠙⠛⠋⢸⠀⣸⠛⣻⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⡻⣿⢹⣸⡇⠛⢣⡜⣖⠲⣖⠁⣷⢳⣶⢿⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⡇⠙⠙⠯⣿⢠⣼⢿⡾⡴⣿⡀⣽⣿⠟⢃⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠁⠀⠀⠀⡟⡿⢾⣻⣿⣯⣿⡷⠿⡍⠀⢸⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div>",
-            "correctAnswer": 3,
-            "answers": [
-                " cmpbe ",
-                " movl ",
-                " movae ",
-                " cmovnge ",
-                " cmovnae "
-            ]
-        },
-        {
-            "id": 226,
-            "question": "Po wykonaniu instrukcji \n mov edx, 8234h \n blsi eax, edx \n rejestr eax będzie zawierał: ",
-            "explanation": "Wyciąga i ustawia pierwszy najniższy bit",
-            "correctAnswer": 2,
-            "answers": [
-                " 00000000h ",
-                " 00000002h ",
-                " 00000004h ",
-                " 00000010h ",
-                " Żadna z powyższych "
-            ]
-        },
-        {
-            "id": 227,
-            "question": "Który procesor jako pierwszy posiadał 32. bitowa szynę adresową:",
-            "explanation": "80386",
-            "correctAnswer": 4,
-            "answers": [
-                "8080",
-                "8086",
-                "80186",
-                "80286",
-                "żadne z powyższych"
-            ]
-        },
-        {
-            "id": 228,
-            "question": "Po wykonaniu instrukcji <br><br>mov ecx, 11223344h <br>mov eax, 87654321h <br>shr eax, cl <br>bts eax, 0 <br><br>rejestr eax zawierać będzie: ",
-            "explanation": "shr maskuje bity do 5/6 bitów dla 32/64 bit",
-            "correctAnswer": 0,
-            "answers": [
-                " 08765433h ",
-                " 08765432h ",
-                " 043b2a190h ",
-                " 0e3b2a190h ",
-                " 021436587h "
-            ]
-        },
-        {
-            "id": 229,
-            "question": "Indeksowy tryb adresowania występuje w instrukcji: ",
-            "explanation": "todo",
-            "correctAnswer": 4,
-            "answers": [
-                " inc esi ",
-                " mov edi, offset zmienna ",
-                " mov zmienna, rdx ",
-                " or edx, [rbx] ",
-                " mov [rax*8 + tablica], rdx "
-            ]
-        },
-        {
-            "id": 230,
-            "question": "Maksymalna częstotliwość taktowania procesora 4004 firmy Intel to:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "740 Hz",
-                "740 MHz",
-                "74 MHz",
-                "740 kHz",
-                "74 kHz"
-            ]
-        },
-        {
-            "id": 231,
-            "question": "Która z instrukcji pozwala na wypełnienie tekstu znakami?",
-            "explanation": "todo",
-            "correctAnswer": 4,
-            "answers": [
-                "scasb",
-                "movsd",
-                "lodsb",
-                "cmpsb",
-                "stosb"
-            ]
-        },
-        {
-            "id": 232,
-            "question": "Kopiując tekst użyjemy instrukcji:",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                "cmpsb",
-                "movsb",
-                "lodsb",
-                "scasb",
-                "stosb"
-            ]
-        },
-        {
-            "id": 233,
-            "question": "Zestaw instrukcji SSE został zaprojektowany dla rejestrów: ",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                " MMX ",
-                " XMM ",
-                " YMM ",
-                " ZMM ",
-                " Rnr. "
-            ]
-        },
-        {
-            "id": 234,
-            "question": "By wykryć, że pierwszy argument (U2) porównania jest mniejszy lub równy wykonamy:",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                "jbe",
-                "jng",
-                "jge",
-                "ja",
-                "jnle"
-            ]
-        },
-        {
-            "id": 235,
-            "question": "Która z instrukcji umożliwia dodanie trzech wartości? ",
-            "explanation": "<div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⣀⣠⣀⣀⣄⣀⣤⣀⣄⣠⣀⣄⣤⣿⣿⣿⣿⣿⣿⣿⣿⣟⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣘⣿⣿⣿⣿⣿⣿⣿⣿⣧⣄⣄⣀⣄⣀⣠⣀⣀⣄⣠⣠⣄⣄⡀</div><div>⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁</div><div>⠀⠀⠀⢹⣿⣿⡟⠋⠙⠉⠋⠙⠉⠋⠙⠉⣋⡙⠉⠋⠙⠉⠋⠙⠉⠋⠹⣿⣿⣿⣿⡟⠛⠙⠋⠛⠙⠋⠛⠉⠋⣙⡉⠋⠙⠉⠋⠙⠉⠋⠙⠙⣿⣿⣿⠁⠀⠀</div><div>⠀⠀⠀⠀⣿⣿⣿⠀⠀⢀⠂⠈⢠⠐⣥⢋⡴⣻⣿⡗⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣷⠀⠀⠀⠠⠀⠈⢰⣟⣧⠀⠀⠀⠁⠀⠀⠀⡀⠀⠀⢠⣿⣿⡏⠀⠀⠀</div><div>⠀⠀⠀⠀⢿⣿⣿⡀⠀⠆⠀⠠⠸⠀⢼⣮⣿⢿⡽⣧⠀⢡⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⡆⠀⠀⡁⠐⠐⢸⡎⣽⣧⢀⠀⠀⠀⠁⠀⠀⠀⠀⣸⣿⣿⠃⠀⠀⠀</div><div>⠀⠀⠀⠀⠸⣿⣿⣇⠀⠀⠀⢰⣁⣬⡟⣿⢞⣯⣿⡷⣐⢦⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣷⠀⠀⠈⢦⣕⡷⣭⣿⣾⡔⡌⠠⣄⠘⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⣿⣿⣿⡀⠀⠀⠈⢛⡶⣽⢯⣿⣯⣿⣿⣽⠞⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠘⢿⣿⣿⣿⣿⣿⣜⠷⢡⠊⠀⠀⠀⣰⣿⣿⡏⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠘⣿⣿⣷⣄⠀⠀⠀⠙⠫⢿⡿⣿⠿⠟⠁⠀⠀⣠⣾⣿⣿⡟⢣⠚⡽⣿⣿⣿⣆⡀⠀⠈⠹⢿⣿⣿⣿⠯⠛⠁⠀⠀⢀⣴⣿⣿⡿⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣷⣶⣤⣀⣀⣀⣀⣀⣀⣀⣠⣴⣾⣿⣿⣿⠟⠈⠀⠐⠈⠹⢿⣿⣿⣷⣦⣄⣀⣀⣠⣀⣀⣀⣀⣠⣤⣶⣿⣿⡿⠏⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠁⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠃⠀⠀⠀⡤⠉⠈⠉⠉⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⢉⡉⠁⠀⠀⠀⢠⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠈⠁⠀⠀⠀⠐⣝⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢢⠀⠀⠸⠜⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⢂⠀⠀⠀⠤⡀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣦⠖⠰⠀⠆⠰⠀⠆⠄⠲⠴⣶⣤⡀⠀⠀⠈⠃⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠑⠁⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⣿⣿⠇⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢆⠀⠀⠀⠀⠀⠀⠀⠀⡸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡐⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠈⠒⠐⠂⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢡⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⡀⠄⢀⠠⠀⡀⠀⠄⡀⢀⠀⣀⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠠⢅⢂⠰⣀⠂⢄⠡⠈⠄⡐⠠⠐⣀⢂⡐⢠⢁⣒⡰⠜⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⣈⠗⣦⢯⣴⣌⣱⣌⣰⣡⣣⣔⣦⡼⣖⠫⠔⡠⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠐⠠⠉⠄⠓⠌⠫⢙⠋⠟⠹⢩⠟⠌⠱⠈⠁⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div>",
-            "correctAnswer": 0,
-            "answers": [
-                " lea ",
-                " add ",
-                " xadd ",
-                " iadd ",
-                " cwde "
-            ]
-        },
-        {
-            "id": 236,
-            "question": "Wykonując instrukcje enter procesor używa rejestrów:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "CS",
-                "RS",
-                "DS",
-                "SS",
-                "FS"
-            ]
-        },
-        {
-            "id": 237,
-            "question": "Po wykonaniu której instrukcji rejestr edx będzie zawierał sumę zawartości rejestrów eax i ebx: ",
-            "explanation": "<div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣶⣾⣿⣿⡿⠟⠛⠛⠛⠛⠛⠻⠿⣿⣿⣿⣿⣿⣷⣶⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣿⣿⣿⣿⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⣼⡿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⢻⣿⡟⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠘⢿⣼⡟⢻⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠳⠆⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⢈⣻⣷⣾⣿⡇⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⠀⠀⢻⣿⣿⣿⡿⢋⡀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣿⠉⠙⢿⣿⡇⠀⠀⠀⠈⢻⣿⣷⣶⣄⣠⠀⠀⠀⣀⣠⣾⣿⣿⡯⠉⠁⠀⠀⠀⢻⣿⣿⡿⠛⢿⡆⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣟⠀⠘⢾⡿⠀⠀⠀⢀⣠⣤⣶⣿⣿⣿⠟⠀⠀⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⢸⣿⣯⠀⣶⡆⣿⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣿⠈⠀⣼⠃⠀⠀⠘⠋⠁⣈⣹⣿⣿⠏⠀⠀⠀⣿⣿⣏⠀⣈⣁⣈⡝⠻⠿⡆⠀⠰⣿⣏⠈⣿⢷⡟⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠰⡇⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⢸⣽⣿⣆⠀⠀⠀⠀⠀⠀⠁⠀⢸⣿⣿⡆⣏⣿⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⢱⡀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⢿⣿⡄⠀⠀⠀⠀⠀⠀⠀⢸⣿⡟⣿⣿⡇⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠙⣄⠀⠀⣸⡄⠀⠀⠀⠀⠀⢀⡞⠁⣤⣤⣀⣠⣤⣀⣄⣸⣿⣦⡀⠀⠀⠀⠀⠀⢸⣿⣄⠟⣼⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠷⠶⠻⡇⠀⠀⠀⠀⠀⠟⠀⠀⠀⠀⠉⠙⠿⠿⣿⠉⢀⡿⣷⡀⢸⣇⢰⠀⠸⣿⣡⡾⠃⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠐⠛⠀⠀⠁⠀⠀⢰⡟⢷⢸⣿⢀⠀⠀⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡇⠀⠀⠀⠀⣼⡿⠓⠶⠒⠛⠛⠉⠙⠛⠻⠻⠿⣿⡇⠀⢸⡟⠀⠀⣠⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⡇⠒⠀⠀⠀⠈⠀⠀⠀⠀⠀⣶⠶⠶⠶⠶⠀⢀⣿⠁⢠⡾⠁⠀⣰⣿⠉⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⡷⠶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠿⠃⢀⣴⡟⢹⡄⠘⣧⠀⠀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⢁⡆⠀⠐⢢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠒⠀⠀⣠⣴⣿⡟⣰⡿⣡⡄⠈⢣⡀⠀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⣀⣠⡤⠖⠒⠋⠁⠀⠘⣷⠀⠀⠀⠙⠦⣄⣀⣀⣀⣀⣀⣤⣶⣿⣦⣤⣴⣶⣿⡿⢋⣼⠟⢁⣿⠁⣠⣤⡉⠀⠀⠀⠀⠀⠀</div><div>⣠⠤⠔⠒⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⢹⡆⠀⠀⠀⠀⠉⠻⣿⣿⣿⣯⣥⣤⣤⣶⣿⣿⡿⠋⣠⡿⠁⠀⠀⠁⠲⢈⣿⣿⣷⣤⣄⠀⠀⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⡀⠤⡄⠀⠀⠀⠀⠉⡻⢿⣧⣿⣿⡟⢋⣤⡾⠋⠀⠀⠀⠀⠘⠛⢺⣿⣿⣿⣿⣿⣷⣤⣤</div><div>⡀⠀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢦⣈⣳⣦⣤⣤⣿⣿⣿⠟⢋⣡⣶⣿⠋⢀⠀⠀⠀⡀⠀⠀⢀⡌⠘⣿⣿⣿⣿⣿⣿⣿</div>",
-            "correctAnswer": 0,
-            "answers": [
-                " lea edx, [eax+ebx] ",
-                " add edx,eax,ebx ",
-                " sbb edx,eax,ebx ",
-                " mul edx,eax,ebx ",
+                " Wirtualizacji serwerów z wirtualizacją prezentacji ",
+                " Wirtualizacji prezentacji z wirtualizacją aplikacji ",
+                " Wirtualizacji aplikacji z wirtualizacją sieci ",
+                " Wirtualizacji sieci z wirtualizacją pamięci ",
                 " żadna z pozostałych "
             ]
         },
         {
-            "id": 238,
-            "question": "Wykonując instrukcję push byte ptr[eax] procesor używa segmentów",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                "CS i DS",
-                "ES i DS",
-                "DS i SS",
-                "SS i GS",
-                "FS i CS"
-            ]
-        },
-        {
-            "id": 239,
-            "question": "Do prostego szyfrowania danych może służyć instrukcja:",
-            "explanation": "todo",
-            "correctAnswer": 0,
-            "answers": [
-                "xlatb",
-                "movsd",
-                "btr",
-                "cwde",
-                "les"
-            ]
-        },
-        {
-            "id": 240,
-            "question": "Która z Instrukcji dla liczb bez znaku przesyła warunki większości",
-            "explanation": "todo",
+            "id": 62,
+            "question": "Ile możliwych dysków logicznych można utworzyć dla partycji GPT ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 4,
             "answers": [
-                "cmpbe",
-                "movb",
-                "movae",
-                "cmovnge",
-                "cmovnbe"
-            ]
-        },
-        {
-            "id": 241,
-            "question": "Która instukcja nie zmienia flagi P ",
-            "explanation": "<div>⠀⠀⠀⠀⠀⢀⣤⠖⠒⠒⠒⢒⡒⠒⠒⠒⠒⠒⠲⠦⠤⢤⣤⣄⣀⠀⠀⠀⠀⠀</div><div>⠀⠀⠀⠀⣠⠟⠀⢀⠠⣐⢭⡐⠂⠬⠭⡁⠐⠒⠀⠀⣀⣒⣒⠐⠈⠙⢦⠀⠀⠀</div><div>⠀⠀⠀⣰⠏⠀⠐⠡⠪⠂⣁⣀⣀⣀⡀⠰⠀⠀⠀⢨⠂⠀⠀⠈⢢⠀⠀⢹⠀⠀</div><div>⠀⣠⣾⠿⠤⣤⡀⠤⡢⡾⠿⠿⠿⣬⣉⣷⠀⠀⢀⣨⣶⣾⡿⠿⠆⠤⠤⠌⡳⣄</div><div>⣰⢫⢁⡾⠋⢹⡙⠓⠦⠤⠴⠛⠀⠀⠈⠁⠀⠀⠀⢹⡀⠀⢠⣄⣤⢶⠲⠍⡎⣾</div><div>⢿⠸⠸⡇⠶⢿⡙⠳⢦⣄⣀⠐⠒⠚⣞⢛⣀⡀⠀⠀⢹⣶⢄⡀⠀⣸⡄⠠⣃⣿</div><div>⠈⢷⣕⠋⠀⠘⢿⡶⣤⣧⡉⠙⠓⣶⠿⣬⣀⣀⣐⡶⠋⣀⣀⣬⢾⢻⣿⠀⣼⠃</div><div>⠀⠀⠙⣦⠀⠀⠈⠳⣄⡟⠛⠿⣶⣯⣤⣀⣀⣏⣉⣙⣏⣉⣸⣧⣼⣾⣿⠀⡇⠀</div><div>⠀⠀⠀⠘⢧⡀⠀⠀⠈⠳⣄⡀⣸⠃⠉⠙⢻⠻⠿⢿⡿⢿⡿⢿⢿⣿⡟⠀⣧⠀</div><div>⠀⠀⠀⠀⠀⠙⢦⣐⠤⣒⠄⣉⠓⠶⠤⣤⣼⣀⣀⣼⣀⣼⣥⠿⠾⠛⠁⠀⢿⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠈⠙⠦⣭⣐⠉⠴⢂⡤⠀⠐⠀⠒⠒⢀⡀⠀⠄⠁⡠⠀⢸⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢤⣀⣀⠉⠁⠀⠀⠀⠒⠒⠒⠉⠀⢀⡾⠀</div><div>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠲⠦⠤⠤⠤⠤⠴⠞⠋⠀⠀</div>",
-            "correctAnswer": 0,
-            "answers": [
-                " not ",
-                " dec ",
-                " cmp ",
-                " xadd ",
-                " fcomi "
-            ]
-        },
-        {
-            "id": 242,
-            "question": "Prefix LOCK może odnosić się do instrukcji: ",
-            "explanation": "-",
-            "correctAnswer": 0,
-            "answers": [
-                " inc ",
-                " nop ",
-                " cmp ",
-                " cmc ",
-                " fdiv "
-            ]
-        },
-        {
-            "id": 243,
-            "question": "Parametry aktualne przechowuje się w segmencie:",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "CS",
-                "DS",
-                "ES",
-                "SS",
-                "FS"
-            ]
-        },
-        {
-            "id": 244,
-            "question": "Do prostego szyfrowania danych może służyd instrukcja",
-            "explanation": "todo",
-            "correctAnswer": 3,
-            "answers": [
-                "movsd",
-                "btr",
-                "cwde",
-                "xlatb",
-                "les"
-            ]
-        },
-        {
-            "id": 245,
-            "question": "Koprocoersory Intel maja wbudowany koprocesor matematyczny poczawszy od",
-            "explanation": "To skomplikowane",
-            "correctAnswer": 2,
-            "answers": [
-                "8086",
-                "80386",
-                "80486DX",
-                "pentium pro",
-                "żadnego z powyzszych "
-            ]
-        },
-        {
-            "id": 246,
-            "question": "Która z instrukcji posiada dziedzinę <-1,1>:",
-            "explanation": "todo",
-            "correctAnswer": 2,
-            "answers": [
-                "fsub",
-                "fsin",
-                "f2xm1",
-                "frndint",
-                "żadna z powyższych"
-            ]
-        },
-        {
-            "id": 247,
-            "question": "Po wykonaniu której z instrukcji zawartość AL. Zmieni się z 0a5h na 0ffh? ",
-            "explanation": "<div>⠀⠀⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣻⣿⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⠉⠳⠂⢲</div><div>⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠁</div><div>⠀⠀⣿⣿⣿⣿⣿⣿⡿⣿⡽⣿⣿⣿⣿⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀</div><div>⠀⢰⣿⣿⣿⡿⢷⣤⣙⣿⣿⣿⣹⣿⣿⣿⣿⢿⣿⣯⣿⣿⣿⣿⣿⣿⢤⡎⠀⠀</div><div>⣴⣿⣟⠛⠋⣢⡤⣽⣿⣿⠯⠛⠟⠛⠏⠛⠣⡿⣿⡿⣿⣿⣿⣿⣿⣿⢺⠇⠀⠀</div><div>⣿⣿⣿⡩⠽⣻⢿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣾⣿⣿⣿⣿⠸⠀⠀⠀</div><div>⣿⣿⣿⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠉⠙⣿⣿⣿⣿⡆⣆⠀⠀</div><div>⣿⣿⠛⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠂⢕⣂⣤⢤⣄⠀⠈⣟⣿⣿⣿⣿⡄⠀</div><div>⢻⣿⡙⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠟⠉⠁⠈⠛⢧⡠⢜⣿⣿⣿⣿⣧⠀</div><div>⢸⣿⢡⣀⡀⠀⠀⠀⠀⢀⠀⢀⣴⣿⠟⣁⠄⠂⣁⣄⠀⠀⢣⢈⢿⣿⣿⣿⡉⠀</div><div>⠀⢹⡟⠉⠛⠻⠿⣶⣄⡀⠉⢰⠞⢁⣨⠖⢿⠿⠉⠉⠁⠀⠀⢇⠘⣿⠝⣻⣇⠀</div><div>⠀⠀⣧⠀⣀⣤⣴⣴⣢⢼⠀⠀⠓⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡏⢆⠃⣿⡀</div><div>⠀⠀⣿⠐⢏⠨⠋⠁⠀⡞⡆⠀⠱⡈⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⡇⠤⢠⣿⠁</div><div>⣠⣀⣿⠀⠀⠀⠀⠀⠀⢰⡇⠀⠀⠱⣀⠀⠀⠀⠀⠀⠀⠀⢀⡆⠀⣿⣶⣿⠋⠀</div><div>⣿⣿⣿⣇⠀⠀⠀⠀⠀⢠⠀⠀⠀⠀⠀⢳⠀⠀⠀⠀⠀⢠⡟⠀⠀⣿⣿⣿⣶⡇</div><div>⣿⣿⣿⣿⣆⠀⠀⠀⠀⠰⣳⣴⠖⢉⠭⠊⠀⠀⠀⠀⠀⠈⠀⠀⠀⣿⣿⣿⣿⡇</div><div>⣿⣿⣿⣿⣿⣷⣦⡤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠄⠀⠀⠀⠀⢠⢻⡿⣿⣿⣷</div><div>⣿⣿⣿⣿⣿⣿⣿⣯⡢⡀⠀⢤⡐⢉⡉⠭⠤⠘⠁⡀⠀⠀⠀⢀⡞⠀⣷⡘⢿⣿</div><div>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⢯⠉⠁⠀⠀⠀⣀⠄⠄⠀⠀⠀⢀⡞⠀⠀⢸⣹⡘⣿</div><div>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡗⠒⠒⠚⠉⠁⠀⠀⠀⠀⢠⠞⠀⠀⠀⠀⡏⡇⢩</div><div>⣿⣿⣿⣿⣿⣿⣿⣿⡿⡵⢁⢾⣄⠀⠀⠀⠀⠀⠀⠀⣰⠏⠀⠀⠀⠀⠀⠃⢠⠀</div><div>⣿⣿⣿⣿⣿⣿⢟⠟⡌⠘⢅⣾⢻⠢⢄⣀⣀⣀⡤⠞⠁⠀⠀⠀⠀⠀⠀⡄⠘⠀</div>",
-            "correctAnswer": 0,
-            "answers": [
-                " xor al, 5ah ",
-                " ror al, 4 ",
-                " rcl al, 1 ",
-                " shl al, 2 ",
-                " mov Offh, al "
-            ]
-        },
-        {
-            "id": 248,
-            "question": "Która z instrukcji nie jest poprawna: ",
-            "explanation": "<br><table style=\"border: 1px solid rgb(204, 204, 204); margin: 10pt; color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;\"><tbody><tr><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Opcode</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Instruction</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">64-Bit Mode</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Compat/Leg Mode</th><th style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Description</th></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DF /0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FILD m16int</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Push m16int onto the FPU register stack.</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DB /0</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FILD m32int</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Push m32int onto the FPU register stack.</td></tr><tr><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">DF /5</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">FILD m64int</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Valid</td><td style=\"border-collapse: collapse; border-width: 1px; border-color: rgb(204, 204, 204); border-image: initial; padding: 2pt 8pt;\">Push m64int onto the FPU register stack.<br><br></td></tr></tbody></table>",
-            "correctAnswer": 4,
-            "answers": [
-                " fmul ",
-                " fadd st,st(1) ",
-                " fstp st(1) ",
-                " fsubr st,st(1) ",
-                " fild st(1) "
-            ]
-        },
-        {
-            "id": 249,
-            "question": "Prefix LOCK może odnosić się do instrukcji",
-            "explanation": "todo",
-            "correctAnswer": 1,
-            "answers": [
-                "nop",
-                "xchg",
-                "cmp",
-                "mov",
-                "fdiv"
-            ]
-        },
-        {
-            "id": 250,
-            "question": "Która z Instrukcji nie jest poprawna? ",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " fmul ",
-                " fadd st,st(1) ",
-                " fstp st(1) ",
-                " fbld st(1) ",
-                " fsubr st(1),st "
-            ]
-        },
-        {
-            "id": 251,
-            "question": "Procesory Core 2 posiadają współczynnik IPC (Instruction Per Cycle) równy: ",
-            "explanation": "-",
-            "correctAnswer": 1,
-            "answers": [
+                " 16 ",
+                " 8 ",
                 " 4 ",
-                " 3,5 ",
-                " 2,5 ",
                 " 2 ",
-                " 3 "
+                " nie ma pozostałych ograniczeń "
             ]
         },
         {
-            "id": 252,
-            "question": "Pentium wprowadził po raz pierwszy:",
-            "explanation": "-",
-            "correctAnswer": 3,
-            "answers": [
-                " 64-bitowa szyna danych ",
-                " branch prediction ",
-                " architektura superskalarna ",
-                "wszystkie z powyższych",
-                "żadne z powyższych"
-            ]
-        },
-        {
-            "id": 253,
-            "question": "Który procesora dodał MMX ",
-            "explanation": "-",
+            "id": 63,
+            "question": "Fragmentacja wewnętrzna występuje dla: ",
+            "explanation": "Dodaj wytłumaczenie",
             "correctAnswer": 0,
             "answers": [
-                " Pentium II ",
-                " Core duo ",
-                " 486 ",
-                " Pentium ",
-                " żaden z powyższych "
+                " stronicowania ",
+                " segmentacji ",
+                " pamięci opartej o rejestr bazowy i graniczny ",
+                " wszystkich powyższych ",
+                " żadna z pozostałych "
+            ]
+        },
+        {
+            "id": 64,
+            "question": "Podprogram obsługi przerwania ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
+            "answers": [
+                " może zmienić stos procesu ",
+                " może zmienić dowolne rejestry procesora ",
+                " może zmienić tylko rejestr flag ",
+                " nie może zmieniać semaforów ",
+                " żadna z pozostałych "
+            ]
+        },
+        {
+            "id": 65,
+            "question": "Wątki jednego zadania posiadają: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
+            "answers": [
+                " wspólną sekcję danych oraz stos ",
+                " wspólny kod i licznik rozkazów ",
+                " rózne sekcje danych i kod ",
+                " rózne liczniki rozkazów i stosy ",
+                " żadna z pozostałych "
+            ]
+        },
+        {
+            "id": 66,
+            "question": "Do zasobów podzielnych nalezą ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
+            "answers": [
+                " kod i zmienne ",
+                " procesory i kod ",
+                " pliki otwarte do zapisu i stos ",
+                " stos i zmienne ",
+                " nie ma takich zasobów "
+            ]
+        },
+        {
+            "id": 67,
+            "question": "Pamięć asocjacyjna ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
+            "answers": [
+                " przechowuje strony ostatnio zapisane na dysku twardym ",
+                " zawiera konfigurację komputera w czasie jego wyłączenia ",
+                " przechowuje deskryptory ostatnio używanych segmentów ",
+                " przechowuje ostatnio używany kod lub dane ",
+                " jest to inna nazwa na pamięć cache "
+            ]
+        },
+        {
+            "id": 68,
+            "question": "Konstrukcja synchronizacyjna jest ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
+            "answers": [
+                " komunikat ",
+                " semafor ",
+                " region krytyczny ",
+                " dyspozytor ",
+                " żadna z pozostałych "
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Ochrona pamięci operacyjnej jest wbudowana do: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
+            "answers": [
+                " jądra systemu operacyjnego ",
+                " modułu zarządzającego pamięcią ",
+                " procesu użytkownika ",
+                " do sprzętu adresującego pamięć ",
+                " podprogramu obsługi przerwania niemaskowanego "
+            ]
+        },
+        {
+            "id": 70,
+            "question": "Zegar czasu rzeczywistego nie jest używany do ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
+            "answers": [
+                " planowania ",
+                " rozliczania zasobów ",
+                " przełączenia procesów ",
+                " ustawiania atrybutów plików ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Stan procesu 'gotowy' oznacza: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
+            "answers": [
+                " instrukcje procesu są aktualnie wykonywane ",
+                " proces czeka na przydział procesora ",
+                " proces czeka na wystąpienie jakiegoś zdarzenia ",
+                " proces zakończył działanie ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 72,
+            "question": "Organizacji logicznej pamięci nie zapewnia ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 4,
+            "answers": [
+                " pamięć oparta o rejestr bazowy i graniczny ",
+                " segmentacja ",
+                " stronicowanie ",
+                " segmentacja ze stronicowaniem ",
+                " wszystkie powyższe zapewniają "
+            ]
+        },
+        {
+            "id": 73,
+            "question": "Stronicowanie wielopoziomowe ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
+            "answers": [
+                " przyśpiesza dostęp do pamięci ",
+                " pozwala wczytać więcej stron programu do pamięci ",
+                " powoduje fragmentację zewnętrzna ",
+                " stronicuje tablicę deskryptoró stron ",
+                " zmniejsza zapotrzebowanie na korzystanie z semaforów "
+            ]
+        },
+        {
+            "id": 74,
+            "question": "Algorytm bliźniaków to: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
+            "answers": [
+                " strategia rozmieszczania ",
+                " strategia wymiany ",
+                " strategia pobierania ",
+                " przydział ciągły ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 75,
+            "question": "W katalogu /dev systemów typu UNIX znajdują się: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 3,
+            "answers": [
+                " sterowniki urządzeń ",
+                " pliki informacyjne o właściwościach urządzeń ",
+                " deskryptory urządzeń ",
+                " pliki specjalne do obsługi urządzeń ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 76,
+            "question": "Współbieżność nie występuje w systemie: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
+            "answers": [
+                " Windows 3.10 ",
+                " WIndows XP Professional ",
+                " PC DOS ",
+                " SCO UnixWare ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 77,
+            "question": "LBA to: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 0,
+            "answers": [
+                " rodzaj adresacji sektorów na dysku ",
+                " tablicza buforów lokalnych ",
+                " Linkuksowa wersja powłoki BASH ",
+                " oznaczenie ostatniego bloku pliku, do którego odwoływał się proces ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 78,
+            "question": "Zakleszczeniu można zapobiec przez: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
+            "answers": [
+                " ograniczenie liczby wątków w systemie ",
+                " zwiększenie liczby procesorów w systemie ",
+                " utworzenie grafu przydziału zasobów ",
+                " uruchomienie procesu wykrywania zakleszczeń ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 79,
+            "question": "Małe pliki w systemie NTFS przechowuje się: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 1,
+            "answers": [
+                " w specjalnej bazie danych dla małych plików ",
+                " jako atrybut wpisie katalogowym ",
+                " jak kady inny plik na dysku ",
+                " na specjalnej ukrytej partycji ",
+                " żadne z pozostałych "
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Buforowanie wielokrotne ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
+            "answers": [
+                " eliminuje szamotanie ",
+                " jest konieczne do prawidłowego działania zbioru roboczego ",
+                " pozwala by dwa procesy jednocześnie korzystały z tych samych zasobów niepodzielnych ",
+                " przyśpiesza działanie pamięci podręcznej ",
+                " żadne z powyższych "
+            ]
+        },
+        {
+            "id": 81,
+            "question": "Aby odwołać się do parametru w skrypcie BASH używamy znaku: ",
+            "explanation": "Dodaj wytłumaczenie",
+            "correctAnswer": 2,
+            "answers": [
+                " # ",
+                " @ ",
+                " $ ",
+                " % ",
+                " żadne z powyższych "
             ]
         }
     ]
